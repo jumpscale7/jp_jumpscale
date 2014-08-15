@@ -1,0 +1,30 @@
+jp.name=grid
+jp.version=1.0
+jp.autobuild=0
+jp.debug=1
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=143
+jp.taskletschecksum=43019d50f696baafbcbadabc449bdec6
+jp.export=0
+
+jp.bundles=generic:a674da16648ae0ec010b69d8df5b9c55
+
+jp.repositories.generic.jumpscale_jumpscale_grid=668888051a45
+jp.repositories.none.jumpscale_jumpscale_grid=980249f346ae
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=1f2c8afcb48031f1d96d04b12f8a2ca3
+
+jp.dependency.1.name = core
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.dependency.2.name = codegentools
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+
+jp.domain=jumpscale

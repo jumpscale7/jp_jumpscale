@@ -1,0 +1,5 @@
+
+rediskvs.secret=@ASK descr:use__any__key__is__to__encrypt__db
+rediskvs.master.addr=@ASK descr:press__enter__if__no__master
+rediskvs.master.port=7772
+

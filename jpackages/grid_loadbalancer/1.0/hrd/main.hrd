@@ -1,0 +1,23 @@
+jp.domain=jumpscale
+jp.name=grid_loadbalancer
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=2
+
+jp.taskletschecksum=56dad50cfbd9d2219a8e6073b00b4e6f
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=a4e8f3ca9ac9a2df62a2bcaa03e33eb6
+
+##dependencies
+jp.dependency.1.name = nginx
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

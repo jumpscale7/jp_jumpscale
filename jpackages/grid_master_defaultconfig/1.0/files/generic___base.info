@@ -1,0 +1,14 @@
+5efb2a3eb9adba0a3d0b8dee9837f0e1
+ac2d37efca0c8b730f4a1ecda376f9af|cfg/hrd/admin.hrd
+25edd4cf616a227eb971e88917b163e9|cfg/hrd/elasticsearch.hrd
+8fc2af0b063a25da06bf235bfb4ed02e|cfg/hrd/grid.hrd
+6625050e72f95a9d34cefb15dc7404f2|cfg/hrd/grid_master.hrd
+b2ec9ea8f42c50c8ae39568a365a8e36|cfg/hrd/jssync.hrd
+0f55d982bf8fa970d184eafc858533ba|cfg/hrd/jumpscale.hrd
+b99a2c31e5e6a7f1e8b201fe9ad9d424|cfg/hrd/mailrobot.hrd
+ade189d3dbe39a3cce880b2780fe94d5|cfg/hrd/osis.hrd
+df7438d2da237b28594f3038494ca3e3|cfg/hrd/portal.hrd
+42fe122dedb54255d16056a0236770b8|cfg/hrd/processmanager.hrd
+08ef34f8b169427753e67e07455d0731|cfg/hrd/redis.hrd
+f596acb2c49a942a550cfbd7885d8eed|cfg/hrd/system_root_credentials.hrd
+aa39c259cc60e3980aebc37aaf1796b0|cfg/hrd/workers.hrd

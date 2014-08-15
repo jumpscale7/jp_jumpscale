@@ -1,0 +1,13 @@
+h2. $(jp.name) $(jp.version)
+
+the base package for a grid
+will have all jumpscale code for the grid
+
+depends on grid_base which is installing dependencies
+
+no active hrd
+
+no special configure or install tasklets 
+just copying the jumpscale libs for the grid functionality
+
+the magic for configuring & installing a node in a grid is the jpackage: gridnode

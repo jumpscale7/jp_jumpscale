@@ -1,0 +1,8 @@
+h2. osis
+
+Object Storage & Indexing Server
+
+is main db frontend layer storing & indexing objects.
+OSIS is a required component by broker, appserver, ...
+
+

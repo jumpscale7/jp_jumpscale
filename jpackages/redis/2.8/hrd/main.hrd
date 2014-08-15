@@ -1,0 +1,24 @@
+jp.domain=jumpscale
+jp.name=redis
+jp.version=2.8
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=ubuntu
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=12
+
+jp.taskletschecksum=fddc275f82911a3324765c5ab25d10fb
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=4dfc5df252378cc2faec115b4a800fd1
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+
+jp.ports=7768,7767
+jp.debug=0

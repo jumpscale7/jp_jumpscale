@@ -1,0 +1,10 @@
+457cd7cc43f0e2b371a257a96ddacea3
+d41d8cd98f00b204e9800998ecf8427e|apps/nginx/auto/nginx/nginx.bs
+7792fce4f635229f519d846e93e85556|apps/nginx/auto/nginx/nginx.so
+61085a612737dda0c36d3d570d0d0142|apps/nginx/docs/lua.markdown
+17f9c9b90762b5be6e1c6f71586e28c9|apps/nginx/docs/memcached.markdown
+2f19a79956b600471df68af7a40c4b26|apps/nginx/memcached.lua
+3f124ad1590a2b72b0c6d1ceea9fb412|apps/nginx/nginx
+0c54c07d2e6bb218cb9a0508d76bc528|apps/nginx/nginx.pm
+438abca1c27363ba4d2587a740e75591|apps/nginx/redis.lua
+dc7c8ee4994ae45875fdbcf5c9e71e97|apps/nginx/sandboxNginx.py

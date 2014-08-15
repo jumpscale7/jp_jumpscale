@@ -1,0 +1,4 @@
+redis.client.addr=@ASK default:localhost  descr:can__be__more__than__one__use__comma__separated__list
+redis.client.port=@ASK default:7768
+redis.client.passwd=@ASK default:
+

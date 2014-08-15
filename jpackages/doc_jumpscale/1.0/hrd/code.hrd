@@ -1,0 +1,5 @@
+jp.code.account=jumpscale
+jp.code.repo=doc_jumpscale
+jp.code.branch=master
+jp.code.type=git
+jp.code.provider=github

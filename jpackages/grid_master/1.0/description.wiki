@@ -1,0 +1,15 @@
+h2. grid_master
+
+is the master for a grid.
+
+this package just calls the other packages required to get required functionality to run
+e.g. 
+- osis
+- logger 
+- grid_portal
+- masterbroker (optional)
+- 1 or more workers
+- agentcontroller
+- 1 or more agents 
+
+

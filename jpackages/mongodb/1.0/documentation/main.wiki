@@ -1,0 +1,5 @@
+h2. $(jp.name) $(jp.version)
+
+to go to basic webserver interface
+http://localhost:28017
+

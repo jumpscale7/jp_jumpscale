@@ -1,0 +1,21 @@
+jp.domain=jumpscale
+jp.name=rediskvs
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux64
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=2
+
+jp.taskletschecksum=3f70ea43c1e74d367e2f9fcd002498f2
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=8323a903df86106c1d7612e57d0a77b0
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale

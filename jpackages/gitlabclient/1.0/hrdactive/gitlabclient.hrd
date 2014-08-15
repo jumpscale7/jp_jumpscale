@@ -1,0 +1,8 @@
+
+gitlabclient.server.1.name=incubaid
+gitlabclient.server.1.addr=@ASK default:gitlab.a.incubaid.com
+gitlabclient.server.1.port=@ASK default:80
+gitlabclient.server.1.login=@ASK
+gitlabclient.server.1.passwd=@ASK
+
+

@@ -1,0 +1,16 @@
+261d4760b1f1889d17c850fd19902bf6
+10803ea4cc1df164f42909bdc1b27a04|apps/blobserver2/Copy (1) client.py
+0a0a19122d92821711161d5bc3d21f7c|apps/blobserver2/blobserver2.py
+deaea73d036df7674616e9d1a42fb13a|apps/blobserver2/blobserver2_master.py
+8465856ce32800a89a3b49bddbdb908e|apps/blobserver2/blobserver2_parent.py
+587186f1bfede5e0e1de52781ce15725|apps/blobserver2/blobserver2_worker.py
+76aecc0947aa2c7ae716a66bcecc87e7|apps/blobserver2/client.py
+c433d42530449dda0e7f0993c1a3db72|apps/blobserver2/osis/blobstor/OSIS_category_template.py
+65ce8694c4807c51267874dfc6d9a098|apps/blobserver2/osis/blobstor/bsdisk/OSIS_bsdisk_impl.py
+d6f5791ded0e2ca001096dc1b1b7d53d|apps/blobserver2/osis/blobstor/bsdisk/model.py
+c433d42530449dda0e7f0993c1a3db72|apps/blobserver2/osis/blobstor/bsnamespace/OSIS_bsnamespace_impl.py
+40ff1d77aca3263444122e1b724fb837|apps/blobserver2/osis/blobstor/bsnamespace/model.py
+65ce8694c4807c51267874dfc6d9a098|apps/blobserver2/osis/blobstor/bsnode/OSIS_bsnode_impl.py
+4559f7c314b3b689f0d347435e17000e|apps/blobserver2/osis/blobstor/bsnode/model.py
+c433d42530449dda0e7f0993c1a3db72|apps/blobserver2/osis/blobstor/mdset/OSIS_mdset_impl.py
+5f69a83c3b0910d3585822066934e28e|apps/blobserver2/osis/blobstor/mdset/model.py

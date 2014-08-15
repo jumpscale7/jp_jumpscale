@@ -1,0 +1,5 @@
+mail.relay.addr=@ASK type:str default:smtp.googlemail.com descr:Mail%20server
+mail.relay.port=@ASK type:int default:587 descr:Mail%20port
+mail.relay.ssl=@ASK type:bool default:True descr:Mail%20ssl
+mail.relay.username=@ASK type:str default: descr:Mail%20username
+mail.relay.passwd=@ASK type:str default: descr:Mail%20passwd

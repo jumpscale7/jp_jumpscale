@@ -1,0 +1,13 @@
+grid.useavahi=0
+
+grid.master.ip=
+grid.master.port=5544
+grid.master.superadminpasswd=
+
+grid.id=
+
+grid.node.id =
+grid.node.roles = @ASK name:roles descr:roles__comma_separated type:str default:node,computenode.kvm
+grid.node.machineguid =
+
+

@@ -1,0 +1,6 @@
+es.client.addr=@ASK default:localhost
+es.client.port=@ASK default:9200
+
+#es.client.login=@ASK default:
+#es.client.passwd=@ASK default:
+

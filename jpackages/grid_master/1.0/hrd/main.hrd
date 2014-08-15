@@ -1,0 +1,55 @@
+jp.domain=jumpscale
+jp.name=grid_master
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=30
+
+jp.export=0
+
+jp.bundles=
+
+jp.net.ports=
+
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.dependency.2.name = libs
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+
+jp.dependency.3.name = osis
+jp.dependency.3.domain = jumpscale
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+
+jp.dependency.4.name = agentcontroller
+jp.dependency.4.domain = jumpscale
+jp.dependency.4.minversion=
+jp.dependency.4.maxversion=
+
+jp.dependency.5.name = grid_portal
+jp.dependency.5.domain = jumpscale
+jp.dependency.5.minversion=
+jp.dependency.5.maxversion=
+
+jp.dependency.6.name = workers
+jp.dependency.6.domain = jumpscale
+jp.dependency.6.minversion=
+jp.dependency.6.maxversion=
+
+jp.dependency.8.name = webdis
+jp.dependency.8.domain = jumpscale
+jp.dependency.8.minversion=
+jp.dependency.8.maxversion=
+
+jp.taskletschecksum=5b17248bd6dada97e770bd645a376ff0
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=f20f47d58f840c783fdd178ca182dc42
+jp.debug=1

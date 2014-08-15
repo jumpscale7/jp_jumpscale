@@ -1,0 +1,19 @@
+jp.domain=jumpscale
+jp.name=processmanager
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=43
+
+jp.taskletschecksum=17eb0831a0b1a6a2d3c8c7586977c164
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=6d638a2e3627ffe184c82b252b36999a
+
+jp.debug=1

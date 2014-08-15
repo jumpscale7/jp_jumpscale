@@ -1,0 +1,17 @@
+jp.domain=jumpscale
+jp.name=mongodb
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=3
+
+jp.taskletschecksum=94f7784cbe2aba0ee8e7583418917b7a
+jp.descrchecksum=6784d6313140a56f82214270790bac88
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f

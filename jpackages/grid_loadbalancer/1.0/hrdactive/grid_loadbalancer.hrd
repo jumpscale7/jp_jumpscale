@@ -1,0 +1,2 @@
+osis.ip=@ASK descr:a__comma__separated__list__of__OSIS__IPs type:str
+grid.agentcontroller.ip=@ASK descr:a__comma__separated__list__of__AgentController__IPs type:str

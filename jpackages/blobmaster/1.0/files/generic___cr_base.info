@@ -1,0 +1,10 @@
+d40f962f7c77e862b30245a33344cd17
+c433d42530449dda0e7f0993c1a3db72|apps/osis/logic/blobstor/OSIS_category_template.py
+65ce8694c4807c51267874dfc6d9a098|apps/osis/logic/blobstor/bsdisk/OSIS_bsdisk_impl.py
+d6f5791ded0e2ca001096dc1b1b7d53d|apps/osis/logic/blobstor/bsdisk/model.py
+c433d42530449dda0e7f0993c1a3db72|apps/osis/logic/blobstor/bsnamespace/OSIS_bsnamespace_impl.py
+40ff1d77aca3263444122e1b724fb837|apps/osis/logic/blobstor/bsnamespace/model.py
+65ce8694c4807c51267874dfc6d9a098|apps/osis/logic/blobstor/bsnode/OSIS_bsnode_impl.py
+4559f7c314b3b689f0d347435e17000e|apps/osis/logic/blobstor/bsnode/model.py
+c433d42530449dda0e7f0993c1a3db72|apps/osis/logic/blobstor/mdset/OSIS_mdset_impl.py
+5f69a83c3b0910d3585822066934e28e|apps/osis/logic/blobstor/mdset/model.py

@@ -1,0 +1,25 @@
+jp.domain=jumpscale
+jp.name=gitlabclient
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=2
+
+jp.taskletschecksum=d28fd194426efcf93346ee094c659fa8
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=45e44b9674204638087f182837ac2559
+
+##dependencies
+jp.dependency.1.name = gitclient
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.debug=1

@@ -1,0 +1,18 @@
+jp.domain=jumpscale
+jp.name=shorewall
+jp.version=4.5
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=14
+
+jp.taskletschecksum=328faefe656e153f55f5a0300349ca3f
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=ce6c2440841ffac4c4633859297097f7
+
+jp.export=0
+
+jp.bundles=linux:3787bb57ab6ce865da084a19ba730270
+jp.debug=0

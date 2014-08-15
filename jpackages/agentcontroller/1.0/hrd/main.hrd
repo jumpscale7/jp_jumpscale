@@ -1,0 +1,20 @@
+jp.domain=jumpscale
+jp.name=agentcontroller
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+
+jp.buildnr=128
+
+jp.taskletschecksum=7c0e0bd15e0b0841f7b5f277fbfd82d5
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=de01d6901187f426d7a2fa8e6f9745ff
+
+jp.export=0
+
+jp.bundles=
+
+jp.debug=1

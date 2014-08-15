@@ -1,0 +1,16 @@
+jp.domain=jumpscale
+jp.name=base
+jp.version=2.7
+jp.autobuild=0
+
+jp.supportedplatforms=linux64
+jp.description=!(../description.wiki)
+jp.buildnr=85
+jp.export=0
+
+jp.taskletschecksum=83fa686fd25818c5ea4f7efd4d7dd461
+jp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:2ff690fd37c926d3032a447d0285521a
+
+jp.descrchecksum=6eb3d439d91ba5942a4e12599508c777
+jp.hrdchecksum=07a9e1ac52cfd2af8a75443534d00740
+jp.debug=0

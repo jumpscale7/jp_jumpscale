@@ -1,0 +1,31 @@
+jp.name=portal
+jp.domain=jumpscale
+jp.version=1.0
+jp.autobuild=0
+jp.debug=1
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=166
+jp.taskletschecksum=6cd9e556241d7b51513ce0aec8471026
+jp.export=0
+
+jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
+
+##dependencies which are required for building, same syntax as before
+
+jp.dependency.1.domain=jumpscale
+jp.dependency.1.name=codegentools
+
+jp.dependency.2.domain=jumpscale
+jp.dependency.2.name=portal_jslib
+
+jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=af10c2265920cf9fa87f932f80d2ae83
+jp.domain=jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

@@ -1,0 +1,5 @@
+mongodb.client.addr=@ASK default:localhost
+mongodb.client.port=@ASK default:27017
+mongodb.client.login=@ASK default:
+mongodb.client.passwd=@ASK default:
+

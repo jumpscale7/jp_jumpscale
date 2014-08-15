@@ -1,0 +1,25 @@
+jp.domain=jumpscale
+jp.name=jumpscale_examples
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=23
+
+jp.taskletschecksum=b8d8e1b4c6a07fcd00a7ff48c179e459
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=b989e7c44210d4f0d188d21daaaf1a34
+
+jp.export=0
+
+jp.bundles=ubuntu64:23dc154b39e9279cafa94602b62b822d
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2
+jp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e
+jp.debug=1

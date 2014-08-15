@@ -1,0 +1,35 @@
+jp.domain=jumpscale
+jp.name=sentry
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux64
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=19
+
+jp.taskletschecksum=41dff763ae7874c922b614aef4d609bc
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=8df2dc1252e89bdc64fee2bf20ab5daa
+
+##dependencies
+jp.dependency.1.name = postfix
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = memcache
+jp.dependency.2.domain = serverapps
+
+jp.dependency.3.name = postgresql
+jp.dependency.3.domain = serverapps
+
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.debug=0
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

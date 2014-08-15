@@ -1,0 +1,3 @@
+
+installs nginx and makes sure nginx is started.
+also copies libraries & other supporting files for anyone using jumpscale portal

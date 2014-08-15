@@ -1,0 +1,21 @@
+jp.domain=jumpscale
+jp.name=core
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=330
+
+
+jp.taskletschecksum=4e05b30f8d9d8b558b4f9ca06a9a017d
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=2bb0a78ceff1fd08226f4ea6d191d59c
+
+jp.export=0
+
+jp.bundles=generic:eed95debb2a49fe5c52ea650263615a2,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
+
+jp.repositories.generic.jumpscale_jumpscale_core=5f729274fd4d
+jp.debug=1

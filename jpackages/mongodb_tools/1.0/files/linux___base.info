@@ -1,0 +1,11 @@
+42e2ae162c129ec7732be69773ea71a4
+077cd461949befd3a520f911301cbc34|bin/bsondump
+6e41161bf9e4ca2cb32b967a2413fbaf|bin/mongodump
+100217f73cbf7b760bfc89573f2461a2|bin/mongoexport
+6a27465d061651035ac8b73106f1ab8e|bin/mongofiles
+5622e7c1a5b40a5f243cefac70345f89|bin/mongoimport
+daeb7f081575ac39edad90773126952c|bin/mongooplog
+6f95a2a5e5ed6aab667e904a507d89fe|bin/mongoperf
+0647a77e0c30a8c7f19e9fb8782f40af|bin/mongorestore
+acb979a4854cbfcc3d00bde86c1eec43|bin/mongostat
+4d7e4d9dbf7b35fc0468b5e840f458d8|bin/mongotop

@@ -1,0 +1,22 @@
+jp.domain=jumpscale
+jp.name=blobserver
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=13
+
+jp.taskletschecksum=27bd44ea8b2dcbfebe9814a02ea1c0ee
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=279bf83f45d0cb77e045d7432572bef7
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+jp.debug=1

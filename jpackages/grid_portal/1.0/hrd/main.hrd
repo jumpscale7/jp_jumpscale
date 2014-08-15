@@ -1,0 +1,24 @@
+jp.domain=jumpscale
+jp.name=grid_portal
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=66
+
+jp.taskletschecksum=e718d16bbb5b0decce442c2f1e03514c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+
+##dependencies
+
+jp.debug=1
+
+
+jp.app.path=$base/apps/portals/$(grid.portal.instance)/
