@@ -21,6 +21,10 @@ jp.dependency.1.name=codegentools
 jp.dependency.2.domain=jumpscale
 jp.dependency.2.name=portal_jslib
 
+jp.dependency.3.domain=jumpscale
+jp.dependency.3.name=grid
+
+
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=af10c2265920cf9fa87f932f80d2ae83

@@ -15,4 +15,8 @@ jp.taskletschecksum=fad05328e6ff5a051ef335f80af91194
 jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
 jp.hrdchecksum=6e598abe25de3690aefb02f2e6511533
 
+jp.dependency.1.domain=jumpscale
+jp.dependency.1.name=grid
+
+
 jp.domain=jumpscale
