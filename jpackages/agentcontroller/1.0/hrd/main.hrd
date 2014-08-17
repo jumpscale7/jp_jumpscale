@@ -21,3 +21,5 @@ jp.debug=1
 
 jp.dependency.1.domain=jumpscale
 jp.dependency.1.name=grid
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
