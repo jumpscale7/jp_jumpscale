@@ -10,5 +10,6 @@ def main(j,jp):
     acclient = j.clients.agentcontroller.getByInstance(acinstance)
     machineguid = j.application.getUniqueMachineId()
     j.application.config.set('grid.node.machineguid', machineguid)
-    node = acclient.registerNode(j.system.net.getHostname(), machineguid)
-    j.application.config.set('grid.node.id', node['id'])
+    result = acclient.registerNode(j.system.net.getHostname(), machineguid)
+    j.application.config.set('grid.node.id', result['node']['id'])
+    j.application.config.set('agentcontroller.webdiskey', result['webdiskey'])
