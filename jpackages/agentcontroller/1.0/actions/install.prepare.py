@@ -1,8 +1,8 @@
 def main(j,jp):
-    redis=j.packages.findNewest("jumpscale","redis")
-    instancename = 'agentcontrolller'
-    if not redis.isInstalled(instancename):
-        redis.install(hrddata={"redis.name":instancename,"redis.port":"7769","redis.disk":"1","redis.mem":500},instance=instancename)
-    redis.load(instancename)
-    redis.start()
+    for instancename, port in (('agentcontrolller', '7769'), ('production', '7768')):
+        redis=j.packages.findNewest("jumpscale","redis")
+        if not redis.isInstalled(instancename):
+            redis.install(hrddata={"redis.name":instancename,"redis.port":port,"redis.disk":"1","redis.mem":500},instance=instancename)
+        redis.load(instancename)
+        redis.start()
 

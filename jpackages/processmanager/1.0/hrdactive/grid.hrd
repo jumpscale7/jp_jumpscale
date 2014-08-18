@@ -2,3 +2,4 @@ grid.id=@ASK
 grid.node.id=
 grid.node.machineguid=
 grid.node.roles=node
+agentcontroller.webdiskey=

@@ -1,1 +1,3 @@
 grid.node.machineguid=
+grid.master.superadminpasswd=@ASK
+agentcontroller.webdiskey=@ASK

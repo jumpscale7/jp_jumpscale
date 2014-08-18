@@ -7,8 +7,13 @@ def main(j,jp):
 
     acinstance = jp.hrd_instance.get('agentcontroller.connection')
     import JumpScale.grid.agentcontroller
-    acclient = j.clients.agentcontroller.getByInstance(acinstance)
+    config = j.clients.agentcontroller.getInstanceConfig(acinstance)
+    if config.get('login', 'node') == 'node':
+        config['login'] = 'root'
+        config['passwd'] = j.console.askPassword('Please enter admin password to register this node', False)
+
+    acclient = j.clients.agentcontroller.get(**config)
     machineguid = j.application.getUniqueMachineId()
-    j.application.config.set('grid.node.machineguid', machineguid)
-    node = acclient.registerNode(j.system.net.getHostname(), machineguid)
-    j.application.config.set('grid.node.id', node['id'])
+    result = acclient.registerNode(j.system.net.getHostname(), machineguid)
+    j.application.config.set('grid.node.id', result['node']['id'])
+    j.application.config.set('agentcontroller.webdiskey', result['webdiskey'])
