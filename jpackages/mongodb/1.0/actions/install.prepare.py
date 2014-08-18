@@ -13,6 +13,9 @@ def main(j,jp):
     # j.system.platform.ubuntu.install("mongodb-org-mongos")
     # j.system.platform.ubuntu.install("mongodb-org-shell")
     # # j.system.platform.ubuntu.install("mongodb-org-tools")
+
+    do.execute('apt-get purge \'mongo*\' -y')
+    do.execute('apt-get autoremove -y')
     
     j.system.fs.createDir("$vardir/mongodb/$(mongodb.name)")
 
