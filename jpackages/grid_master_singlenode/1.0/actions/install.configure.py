@@ -12,20 +12,17 @@ def main(j,jp):
                          'mongodb.client.port': '27017',
                          'mongodb.client.login': '',
                          'mongodb.client.passwd': ''}
-
     mongoclient.install(instance='main', hrddata=mongodbclientdata)
-
 
     influxdb = j.packages.findNewest('serverapps', 'influxdb')
     influxdb.install(instance='main', hrddata={'influxdb.seedservers':''})
-
+    influxdb.start()
 
     influxdbclient = j.packages.findNewest('serverapps', 'influxdb_client')
     influxdbclientdata = {'influxdb.client.addr': 'localhost',
                           'influxdb.client.port': '8086',
                           'influxdb.client.login': 'root',
                           'influxdb.client.passwd': 'root'}
-
     influxdbclient.install(instance='main', hrddata=influxdbclientdata)
 
     osis = j.packages.findNewest('jumpscale', 'osis')
@@ -41,7 +38,6 @@ def main(j,jp):
                       'osis.client.passwd': 'rooter'}
     osisclient.install(instance='main', hrddata=osisclientdata)
 
-
     portal = j.packages.findNewest('jumpscale', 'portal')
     portaldata = {'portal.port': '82',
                   'portal.ipaddr': 'localhost',
@@ -50,13 +46,11 @@ def main(j,jp):
                   'portal.osis.connection': 'main'}
     portal.install(instance='main', hrddata=portaldata)
 
-
     docportal = j.packages.findNewest('jumpscale', 'doc_jumpscale')
     docportal.install(instance='main', hrddata={'portal.instance': 'main'})
 
     gridportal = j.packages.findNewest('jumpscale', 'grid_portal')
     gridportal.install(instance='main', hrddata={'portal.instance': 'main'})
-
 
     webdis = j.packages.findNewest('jumpscale', 'webdis')
     webdis.install()
@@ -69,14 +63,13 @@ def main(j,jp):
     acdata = {'osis.connection': 'main',
             'webdis.connection': 'main'}
     ac.install(instance='main', hrddata=acdata)
-
+    ac.start()
 
     acclient = j.packages.findNewest('jumpscale', 'agentcontroller_client')
     acclientdata = {'agentcontroller.client.addr': '127.0.0.1',
                     'agentcontroller.client.login': 'node',
                     'agentcontroller.client.port': '4444'}
     acclient.install(instance='main', hrddata=acclientdata)
-
 
     pm = j.packages.findNewest('jumpscale', 'processmanager')
     pmdata = {'agentcontroller.connection': 'main',
