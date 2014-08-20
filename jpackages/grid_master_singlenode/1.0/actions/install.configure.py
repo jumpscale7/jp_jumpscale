@@ -75,3 +75,8 @@ def main(j,jp):
     pmdata = {'agentcontroller.connection': 'main',
             'webdis.connection': 'main'}
     pm.install(instance='main', hrddata=pmdata)
+
+
+    workers = j.packages.findNewest('jumpscale', 'workers')
+    workers.install()
+    workers.start()
