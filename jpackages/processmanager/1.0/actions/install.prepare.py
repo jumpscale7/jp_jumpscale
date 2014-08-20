@@ -13,6 +13,7 @@ def main(j,jp):
         config['login'] = 'root'
         config['passwd'] = j.console.askPassword('Please enter admin password to register this node', False)
 
+    j.application.initWhoAmI(True)
     acclient = j.clients.agentcontroller.get(**config)
     machineguid = j.application.getUniqueMachineId()
     result = acclient.registerNode(j.system.net.getHostname(), machineguid)
