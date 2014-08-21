@@ -7,3 +7,9 @@ def main(j,jp):
     if not redis.isInstalled():
         redis.install(hrddata={"redis.name":"system","redis.port":"7766","redis.disk":"0","redis.mem":200},instance="system")
     redis.start()
+    
+    j.dirs.replaceFilesDirVars("$base/bin/celery")
+    j.dirs.replaceFilesDirVars("$base/bin/celerybeat")
+    j.dirs.replaceFilesDirVars("$base/bin/celeryd")
+    j.dirs.replaceFilesDirVars("$base/bin/celeryd-multi")
+    j.dirs.replaceFilesDirVars("$base/bin/fab")
