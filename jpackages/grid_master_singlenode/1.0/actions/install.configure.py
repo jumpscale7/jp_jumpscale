@@ -73,10 +73,11 @@ def main(j,jp):
 
     pm = j.packages.findNewest('jumpscale', 'processmanager')
     pmdata = {'agentcontroller.connection': 'main',
-            'webdis.connection': 'main'}
+              'webdis.connection': 'main',
+              'osis.connection': 'main'}
     pm.install(instance='main', hrddata=pmdata)
 
 
     workers = j.packages.findNewest('jumpscale', 'workers')
-    workers.install()
+    workers.install(instance='main', hrddata={'osis.connection': 'main'})
     workers.start()

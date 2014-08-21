@@ -8,7 +8,7 @@ def main(j,jp):
         print "Queue:%s"% qname
         cmd = 'python'
         wname="worker_%s"%(qname)
-        args = "worker.py --nodeid=$nodeid -a '127.0.0.1' -p 7768 -qn %s -wn %s_$numprocess "%(qname,wname)
+        args = "worker.py --nodeid=$nodeid -a '127.0.0.1' -p 7768 -qn %s -wn %s_$numprocess --instance=%s"%(qname,wname, jp.instance)
         workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
         processfilterstr="worker.py --nodeid=$nodeid"
         j.tools.startupmanager.addProcess(wname, cmd, args=args, env={}, numprocesses=nrinstances, priority=21, shell=False, \
