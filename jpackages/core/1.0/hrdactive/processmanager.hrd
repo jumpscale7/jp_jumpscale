@@ -1,3 +1,1 @@
-processmanager.upstart=0
-
-
+processmanager.upstart=1

@@ -1,5 +1,4 @@
 def main(j,jp):
-   
     dpath = "$vardir/redis/$(redis.name)"
     cpath = j.system.fs.joinPaths(dpath, "redis.conf")
     port=int($(redis.port))

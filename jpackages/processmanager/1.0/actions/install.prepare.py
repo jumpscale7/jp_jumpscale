@@ -3,6 +3,7 @@ def main(j,jp):
     instancename = 'production'
     if not redis.isInstalled(instancename):
         redis.install(hrddata={"redis.name":instancename,"redis.port":"7768","redis.disk":"1","redis.mem":400},instance=instancename)
+    redis.load(instancename)
     redis.start()
 
     acinstance = jp.hrd_instance.get('agentcontroller.connection')
@@ -12,6 +13,7 @@ def main(j,jp):
         config['login'] = 'root'
         config['passwd'] = j.console.askPassword('Please enter admin password to register this node', False)
 
+    j.application.initWhoAmI(True)
     acclient = j.clients.agentcontroller.get(**config)
     machineguid = j.application.getUniqueMachineId()
     result = acclient.registerNode(j.system.net.getHostname(), machineguid)
