@@ -1,2 +1,3 @@
 agentcontroller.connection=@ASK default:main
 webdis.connection=@ASK default:main
+osis.connection=@ASK default:main
