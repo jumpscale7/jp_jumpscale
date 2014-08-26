@@ -1,4 +1,4 @@
-osis.connection=@ask default:main
+osis.connection=@ASK default:main
 
 portal.port=@ASK default:82
 portal.ipaddr=@ASK default:127.0.0.1
