@@ -1,4 +1,4 @@
-2c2e5b2f3fc0d24038f4b27798c33cb1
+ab1af4676cac7b6fe72d6a0a2f45c1a8
 2db511f53c83cb3a9784bd76ab79973b|apps/portals/portalbase/cfg/contentdirs.cfg
 6d37ac85391aaaaf8b9b1f4091d5660f|apps/portals/portalbase/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portals/portalbase/cfg/users.cfg
@@ -9,7 +9,7 @@ f4c7d78d752afc3fab979dac5a19a59d|apps/portals/portalbase/macros/page/HasBootstra
 6069a24f74dd6e5bd7dd29ce1bd3eff2|apps/portals/portalbase/macros/page/HasBootstrapJS/1_HasBootstrapJS.py
 5d1db2f89cddb24e3f4e42154742c632|apps/portals/portalbase/macros/page/actorinfo/1_main.py
 b57461f801e8ca9e42618fc1f2baf81a|apps/portals/portalbase/macros/page/actormethodinfo/1_main.py
-bc880cff4274bc6baaf2dd5e54a1560b|apps/portals/portalbase/macros/page/actorsdocs/3_main.py
+54d8afcf34b36c8f0dee8b2134b1833a|apps/portals/portalbase/macros/page/actorsdocs/3_main.py
 db7affd30046d4c6341f6dff8010d213|apps/portals/portalbase/macros/page/anchor/1_anchor.py
 e9c7475be31776be610a9fa8920afcaa|apps/portals/portalbase/macros/page/barchart/1_main.py
 8fc6a9292699e94efd1d5fd4eba20e9d|apps/portals/portalbase/macros/page/blog_date/1_blog_date.py
@@ -17,12 +17,12 @@ e9c7475be31776be610a9fa8920afcaa|apps/portals/portalbase/macros/page/barchart/1_
 8624189b1e6aade43776b02a4728a6bb|apps/portals/portalbase/macros/page/blog_title/1_blog_title.py
 f89798205b8ba75aa553b52790cd8ca5|apps/portals/portalbase/macros/page/body/1_main.py
 af768d6efb76c9c867a91d12066e5f23|apps/portals/portalbase/macros/page/bootstrap/1_main.py
-f7ca74888a2e4303aabfb70519fd22e6|apps/portals/portalbase/macros/page/breadcrumbs/1_breadcrumbs.py
+1cf2d805653e3091649fec540b7fbd56|apps/portals/portalbase/macros/page/breadcrumbs/1_breadcrumbs.py
 991eaaffa30ff266a04e1e6a1ac78b02|apps/portals/portalbase/macros/page/capitalize/1_capitalize.py
 1d099b3155ec9362a002be076c71113f|apps/portals/portalbase/macros/page/carousel/1_main.py
-41896bca884ca5c9e559021d71e41e60|apps/portals/portalbase/macros/page/childrentree/1_main.py
+25b1d9e3c09e93b1e24645793c3aa3af|apps/portals/portalbase/macros/page/childrentree/1_main.py
 b5b8b62483c1ef34eb436c064077fd5c|apps/portals/portalbase/macros/page/code/1_code_macro.py
-4e0cbe372489159e421b5a1bcd0ed44c|apps/portals/portalbase/macros/page/contact_form/1_main.py
+e81b505b3801e71773da9c2758c638b5|apps/portals/portalbase/macros/page/contact_form/1_main.py
 82020bcbb30d7cf3a47f059d1548f662|apps/portals/portalbase/macros/page/container/1_main.py
 f0ad2fb44541acc499ad3fc55b922b28|apps/portals/portalbase/macros/page/create_page/1_create_page.py
 5f408628073e7e1c6153018c82023be1|apps/portals/portalbase/macros/page/css/1_main.py
@@ -39,7 +39,7 @@ b5825b78b5f8da7f26d424ac34790065|apps/portals/portalbase/macros/page/debug/1_mai
 96a1c21e62e06f7146232e1d333b2ea2|apps/portals/portalbase/macros/page/div7/1_main.py
 96a1c21e62e06f7146232e1d333b2ea2|apps/portals/portalbase/macros/page/div8/1_main.py
 96a1c21e62e06f7146232e1d333b2ea2|apps/portals/portalbase/macros/page/div9/1_main.py
-b15fc5ad11a16d7e8711b26f67d50a92|apps/portals/portalbase/macros/page/dropdown/1_dropdown.py
+220d53bfd136e904a1e49438020b6bcc|apps/portals/portalbase/macros/page/dropdown/1_dropdown.py
 65e1b5c8894cd9db149b965efcbfb0f2|apps/portals/portalbase/macros/page/echo/1_main.py
 6f86d94b2be1445a88455f67d7b5fdc0|apps/portals/portalbase/macros/page/edit/1_edit_macro.py
 4f60f52e3fe08327697db7c1cff2522a|apps/portals/portalbase/macros/page/email/1_main.py
@@ -47,7 +47,7 @@ d48a28a6ec4cee67d38472125fc5db7d|apps/portals/portalbase/macros/page/explorer/1_
 2f795f735dc721ad6063c0e0ab2ae8bd|apps/portals/portalbase/macros/page/favicon/1_favicon.py
 cba8859fa575cfa072fa7292ada74fbc|apps/portals/portalbase/macros/page/find/1_main.py
 be2c554dfc9891904536282a12feb978|apps/portals/portalbase/macros/page/footer/1_main.py
-7960760ec034bf9883cc9e57c6340118|apps/portals/portalbase/macros/page/gallery/1_main.py
+e8f44e026cb401971364ab7ab025c9fc|apps/portals/portalbase/macros/page/gallery/1_main.py
 ad6af89ebda9391cc49e36c98531ba75|apps/portals/portalbase/macros/page/gallery_bs3/1_gallery_bs3.py
 54d6d5eb1aa58a8469d76f09a718ec21|apps/portals/portalbase/macros/page/google_analytics/1_main.py
 15f842c430ad8d54a171818f73c21951|apps/portals/portalbase/macros/page/hostbasedcontent/1_main.py
@@ -55,14 +55,14 @@ ad6af89ebda9391cc49e36c98531ba75|apps/portals/portalbase/macros/page/gallery_bs3
 60ee109dbe1ef391d1b71defd32cf2d3|apps/portals/portalbase/macros/page/htmlhead/1_main.py
 c9b179cdb46c8c80e10ec9c3dbb74e57|apps/portals/portalbase/macros/page/htmlloadbody/1_main.py
 c5c31b73034a1bd92b5e0439a9b62598|apps/portals/portalbase/macros/page/htmlloadheader/1_main.py
-0c4173af4fda20e1dbdb0ea59611cd52|apps/portals/portalbase/macros/page/jgauge/1_main.py
+be37a6d6adcfa1ffc3ecbee9d55dd5cb|apps/portals/portalbase/macros/page/jgauge/1_main.py
 19c361641c26fceda9e7296223d3f8e9|apps/portals/portalbase/macros/page/jscript/1_main.py
 91aab5bd42b96977874ea11fc74a0b3f|apps/portals/portalbase/macros/page/login/1_main.py
 332806f395a177e54b5bbed01d2dffb6|apps/portals/portalbase/macros/page/logo/1_main.py
 27fece41e0a8ae846982a3437a9c2393|apps/portals/portalbase/macros/page/menu/1_main.py
 823f9f7c1fae9f853c9eed4d8107ffcd|apps/portals/portalbase/macros/page/menudropdown/1_main.py
 8b2f3dd8a2ac57e10575ef531c51131f|apps/portals/portalbase/macros/page/navigation/1_main.py
-cb1235bef8d46071a7554d6c365e464a|apps/portals/portalbase/macros/page/numberedheadings/1_numberedheadings.py
+7fcde4961ebcaca6a29630a0f9d61e99|apps/portals/portalbase/macros/page/numberedheadings/1_numberedheadings.py
 faa4de7411c2395d490f2ccda1479256|apps/portals/portalbase/macros/page/padding/1_main.py
 c5d5324955f3481c3577722ccdb7d5c5|apps/portals/portalbase/macros/page/pagecontent/1_main.py
 d39e9b3f96a21b3ad872b1737cd71849|apps/portals/portalbase/macros/page/plantuml/1_plantuml.py
@@ -78,7 +78,7 @@ bab4711276be45b4925cfa17d3af45ce|apps/portals/portalbase/macros/page/text/1_main
 3e946ee16ba6eb77555d010dae36a090|apps/portals/portalbase/macros/page/textarea/1_main.py
 9b991f471bdb9235e2f4332fd230f120|apps/portals/portalbase/macros/page/thumbnail/1_thumbnail.py
 97c662cd61bda532dfbcb42c6e44d96e|apps/portals/portalbase/macros/page/title/1_main.py
-14ecea3112be2c96b23c5ca827426f1b|apps/portals/portalbase/macros/page/toc/1_toc.py
+5ca4ca4eaee05e8c2bb4de49be0f663d|apps/portals/portalbase/macros/page/toc/1_toc.py
 8350ea55660f1e7bd3f661b6155d668d|apps/portals/portalbase/macros/page/toggle/1_main.py
 1ed98a2ec83c995ac9ed318872847f0c|apps/portals/portalbase/macros/page/urlcalled/1_main.py
 48c1c74723bb50c9c952974ec716b392|apps/portals/portalbase/macros/preprocess/appenddocs/1_main.py
@@ -100,7 +100,7 @@ eaf3b39c20684852ae1bd6b99db07a22|apps/portals/portalbase/macros/wiki/easynodelay
 b4d1f5a1da098104b3119b920d14a981|apps/portals/portalbase/macros/wiki/getmodeldata/1_main.py
 72f7f623f3345330370a3470877c5c3f|apps/portals/portalbase/macros/wiki/graph/1_main.py
 eb3dae4e872c10907681402cfadf137e|apps/portals/portalbase/macros/wiki/groups/1_groups.py
-5ace097760a9409638a8ed6a833b549a|apps/portals/portalbase/macros/wiki/menuadmin/1_menuadmin.py
+acf9ee9314733edeb719fd12f9a2c275|apps/portals/portalbase/macros/wiki/menuadmin/1_menuadmin.py
 c6e5440d2f6eda03c3a3e0272b71334b|apps/portals/portalbase/macros/wiki/menuloggedin/1_menuloggedin.py
 7558c43beb98e25f83b118e9daee637d|apps/portals/portalbase/macros/wiki/menuspaces/1_menuspaces.py
 5b8f8a37644d8e44e76f597ac22b4cd8|apps/portals/portalbase/macros/wiki/multistatsmonth/1_multistatsmonth.py
@@ -118,8 +118,6 @@ e5010bafda9fa5f296014553c2ecca16|apps/portals/portalbase/macros/wiki/spaceaccess
 837ed73b080efb0aebb1c59733fc0a55|apps/portals/portalbase/macros/wiki/spaces/1_main.py
 454b4777207d19efdaabd18458bf9a1e|apps/portals/portalbase/macros/wiki/testwikiout/1_main.py
 383acfaf4eda1a4def9b9bc83fe574bd|apps/portals/portalbase/macros/wiki/users/1_users.py
-1f2d084ddf3b38137fb2ca3edd5690a3|apps/portals/portalbase/portal_client.py
-39f53a52a62221eb01ef26f77da3bea6|apps/portals/portalbase/portal_start.py
 f4100678fdddedfe7f94d613f335b16a|apps/portals/portalbase/system/system__contentmanager/.actor/acl.cfg
 1bc64da7826fb0de6ef8dd5a5f86a07d|apps/portals/portalbase/system/system__contentmanager/.actor/main.cfg
 6a7d7e56a82004209874f718d33d7c41|apps/portals/portalbase/system/system__contentmanager/extensions/extension_datatable/DataTables.py
@@ -153,7 +151,7 @@ e159c63082160ca45b16f271ae77ae96|apps/portals/portalbase/system/system__errorcon
 f69c3c0ff84636aefe9b77bb64490ee6|apps/portals/portalbase/system/system__errorconditionhandler/specs/actor.spec
 f4100678fdddedfe7f94d613f335b16a|apps/portals/portalbase/system/system__infomgr/.actor/acl.cfg
 bf6cac544478e7131b842c3ea888a930|apps/portals/portalbase/system/system__infomgr/.actor/main.cfg
-c58d61a9ce12e78d1de727373e330796|apps/portals/portalbase/system/system__infomgr/extensions/extension_infomgr/InfoMgr.py
+0c63c489684ef98230d07d984f32fe0b|apps/portals/portalbase/system/system__infomgr/extensions/extension_infomgr/InfoMgr.py
 9148a8b17e2c1a458d4dcda6d4c572a9|apps/portals/portalbase/system/system__infomgr/extensions/extension_infomgr/extension.cfg
 4f076b5031c4339601e9f22198fa520e|apps/portals/portalbase/system/system__infomgr/methodclass/system_infomgr.gen.py
 c14a8dca3d3607d2bb4529ae88a2d686|apps/portals/portalbase/system/system__infomgr/methodclass/system_infomgr.py
@@ -278,9 +276,9 @@ f8275f4cd07e41892cbcf94d84529654|apps/portals/portalbase/wiki/TestWebsite/Produc
 1c5a3d76cf0237d826a4bfeb4707c8fe|apps/portals/portalbase/wiki/TestWebsite/ProductBrief3.wiki
 9c33e29272f4140cdf3a5d58d23ff682|apps/portals/portalbase/wiki/TestWebsite/SelfDestruct.wiki
 495c1a609c6cd3d92bd11fdc7601c366|apps/portals/portalbase/wiki/TestWebsite/TestWebsite.wiki
-9b156224a4395de6be042d1b7734508c|apps/portals/portalbase/wiki/TestWebsite/test.html
+721b07bb5af9bf60118a3eabc546cc66|apps/portals/portalbase/wiki/TestWebsite/test.html
 bcaf7f5b68832a3b20c0fcf381635f61|apps/portals/portalbase/wiki/TestWebsite/test.wiki
-ff0017ff320c449fe6db986a43a7278b|apps/portals/portalbase/wiki/TestWebsite/test2.wiki
+74c874cdac2a4d31483cbcae8a51e680|apps/portals/portalbase/wiki/TestWebsite/test2.wiki
 f4100678fdddedfe7f94d613f335b16a|apps/portals/portalexample/base/test__taskmanager/.actor/acl.cfg
 cd9dda166915d73c8363c938bd1545d0|apps/portals/portalexample/base/test__taskmanager/.actor/main.cfg
 73df9e50f48e639e148a566cba18974f|apps/portals/portalexample/base/test__taskmanager/extensions/example__extension/Example_extension.py
@@ -308,5 +306,5 @@ cbad7288ccbdc26f7b798ce32cd5c27b|apps/portals/portalexample/base/test__taskmanag
 2db511f53c83cb3a9784bd76ab79973b|apps/portals/portalexample/cfg/contentdirs.cfg
 b14be389bcbee6076c18d70314efe8cc|apps/portals/portalexample/cfg/portal.cfg
 d41d8cd98f00b204e9800998ecf8427e|apps/portals/portalexample/cfg/users.cfg
-fc0acbe47584a813648ada2b2ed4232e|apps/portals/portalexample/portal_client.py
-39f53a52a62221eb01ef26f77da3bea6|apps/portals/portalexample/portal_start.py
+b8f531942913ba2df8b8d15473a1baf4|apps/portals/portalexample/portal_client.py
+3e7efc2093f7ae18e45adbb7bedfb832|apps/portals/portalexample/portal_start.py

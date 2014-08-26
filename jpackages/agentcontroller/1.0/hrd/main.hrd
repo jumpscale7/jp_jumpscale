@@ -7,11 +7,11 @@ jp.autobuild=0
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
 
-jp.buildnr=128
+jp.buildnr=1
 
-jp.taskletschecksum=7c0e0bd15e0b0841f7b5f277fbfd82d5
+jp.taskletschecksum=f3e2f8dc19bda9fd17d93c245b85b7ab
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=de01d6901187f426d7a2fa8e6f9745ff
+jp.hrdchecksum=d33c83b345b652a0c371fca933cea0d2
 
 jp.export=0
 
