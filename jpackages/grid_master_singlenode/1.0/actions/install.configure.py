@@ -43,7 +43,7 @@ def main(j,jp):
                   'portal.ipaddr': 'localhost',
                   'portal.admin.passwd': 'rooter',
                   'portal.name': 'main',
-                  'portal.osis.connection': 'main'}
+                  'osis.connection': 'main'}
     portal.install(instance='main', hrddata=portaldata)
 
     docportal = j.packages.findNewest('jumpscale', 'doc_jumpscale')
