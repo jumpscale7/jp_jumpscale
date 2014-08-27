@@ -17,7 +17,7 @@ def main(j,jp):
     client = j.clients.influxdb.get(addr, port, user, passwd)
     dbs = [ x['name'] for x in client.get_database_list() ]
     for dbname in ('main', 'grafana'):
-        if 'main' not in dbs:
+        if dbname not in dbs:
             client.create_database(dbname)
         client.switch_db(dbname)
         users = [ x['name'] for x in client.get_database_users() ]
