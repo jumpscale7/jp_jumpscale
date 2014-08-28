@@ -1,4 +1,4 @@
-grid.id=@ASK
+grid.id=@ASK type:int
 grid.node.id=
 grid.node.machineguid=
 grid.node.roles=node
