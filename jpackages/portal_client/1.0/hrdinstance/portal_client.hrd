@@ -1,0 +1,3 @@
+addr=@ASK descr:Portal__address
+port=@ASK descr:Portal__port
+secret=@ASK descr:Portal__secret
