@@ -1,4 +1,4 @@
-c4ed79161f033bec7422266759fc162c
+d63e0a509a4a02f3bb8058df7015595a
 d41d8cd98f00b204e9800998ecf8427e|lib/__init__.py
 af62dbfefae63a99282c4563137e89a7|lib/btrfs/BtrfsExtension.py
 79763605cb0cbefaafd60a8e03c533f2|lib/btrfs/__init__.py
@@ -9,6 +9,10 @@ ac56d0cf826610248e7fbfaaaa7de737|lib/ceph/OSD.py
 376727cb19875dafb3b3210c73f2e964|lib/cisco_ios/CiscoSwitchManager.py
 5929d18cbb7217dbe9dcb23d8b11193e|lib/cisco_ios/Router.py
 7c2ff5cf238a848edea14316507520d5|lib/cisco_ios/__init__.py
+f9c4d36554c80326fc503e96a14c8538|lib/cloudproviders/__init__.py
+877a6d6ceced1603d184dda3be04c88b|lib/cloudproviders/amazon.py
+c332e91fa1b31adb6fc1aca89c2a739a|lib/cloudproviders/digitalocean.py
+e46ffdcf6faa01ed23c15beff3fc8c17|lib/cloudproviders/factory.py
 d41d8cd98f00b204e9800998ecf8427e|lib/dataprocessors/__init__.py
 7398be52ba487de16061edefdf757e06|lib/dataprocessors/imagelib/ImageLib.py
 04b5e15f4814f9c4e9e656a2d46db66d|lib/dataprocessors/imagelib/extension.cfg
@@ -35,7 +39,7 @@ b7d1533843c8c04136920b68d86a0799|lib/kvm/readme.txt
 72a2449ab30e63cafb02e59e7f404fa0|lib/numtools/NumTools.py
 d41d8cd98f00b204e9800998ecf8427e|lib/numtools/__init__.py
 103480376a5be972bf3228ba0ee96476|lib/numtools/extension.cfg
-504ba30234c4c638fb1de1194cfc6d50|lib/objectinspector/ObjectInspector.py
+bce852f48ea2485ac551444c5bf6e97b|lib/objectinspector/ObjectInspector.py
 3b38905ac19519a456f424c9f366c6e8|lib/objectinspector/__init__.py
 97146d12062fc3974d77b0ff2e6871da|lib/osticket/OSTicketFactory.py
 731716ad2a2bc7d221b5c343307260e0|lib/osticket/__init__.py

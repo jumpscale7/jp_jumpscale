@@ -8,7 +8,7 @@ jp.debug=1
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
 jp.buildnr=1
-jp.taskletschecksum=b109069718bb244da24fbc821928df2f
+jp.taskletschecksum=832a8e0be544822f9909853029a2a29c
 jp.export=0
 
 jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
