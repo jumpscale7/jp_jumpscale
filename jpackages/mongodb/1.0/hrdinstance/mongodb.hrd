@@ -1,5 +1,5 @@
-
 mongodb.host=@ASK type:str default:127.0.0.1
 mongodb.port=@ASK type:int default:27017
 mongodb.name=@ASK default:main
+mongodb.replicaset=@ASK descr:Name%20of%20replicaSet%20%28empty%20if%20not%20part%20of%20replicaSet%29
 

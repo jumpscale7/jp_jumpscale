@@ -4,6 +4,7 @@ def main(j,jp):
     mongodb = j.packages.findNewest('jumpscale', 'mongodb')
     mongodata = {'mongodb.host': '127.0.0,1',
                  'mongodb.port': '27017',
+                 'mongodb.replicaset': '',
                  'mongodb.name': 'main'}
     mongodb.install(instance='main', hrddata=mongodata)
 

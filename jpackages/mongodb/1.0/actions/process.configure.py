@@ -13,11 +13,14 @@ def main(j,jp):
     #stats: gather statistics by process manager
     #timeoutcheck: how long do we wait to see if app active
     #isJSapp: to tell system if process will self register to redis (is jumpscale app)
+    args = ""
+    if "$(mongodb.replicaset)" != "":
+        args  = "--replSet $(mongodb.replicaset)"
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
         cmd="./mongod --dbpath $vardir/mongodb/$(mongodb.name)/ --smallfiles --rest", \
-        args="",\
+        args=args,\
         env={},\
         numprocesses=1,\
         priority=2,\
