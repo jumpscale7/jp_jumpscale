@@ -1,4 +1,4 @@
-df3f4441bc9e98eb7028858ff7c60713
+12c339160d8b2c67ba0e35adf76b2119
 0f852327b313ddfffde2e64775836d0e|__init__.py
 d5dcb0dec45b2debdaf8dd4fd0e4a1b7|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -41,6 +41,8 @@ e232a71dc95d733eb8fedae28d01cddf|baselib/blobstor2/BlobStorServer.py
 5cb297c3f5d832ca088974af7341007e|baselib/blobstor2/BlobStorServerSimple.py
 dc4350416964c2d71277f4291e560e56|baselib/blobstor2/BlobStorWorker.py
 312a3ff99b620373cc9e829a2d166d05|baselib/blobstor2/__init__.py
+925c5792a6cb5b90d1bc438489108d44|baselib/celery/CeleryFactory.py
+5997f81a20405b18d8b238ed089db2b9|baselib/celery/__init__.py
 8bcbe72a2fb6c4b05dd9b7041fe29f63|baselib/changetracker/ChangeTrackerClient.py
 194c4209f6d41b48b5b3ca9fdd6a687d|baselib/changetracker/ChangeTrackerFactory.py
 ceb46dc149f89866a00be7d95a2fee47|baselib/changetracker/__init__.py
@@ -126,12 +128,12 @@ e7c301b883aaf038e042c4892646de88|baselib/inifile/extension.cfg
 84e06e93c748d1572bc91ac4d6bce0d7|baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|baselib/installtools/extension.cfg
-48db07803587060e31f24adda237fab5|baselib/jpackages/.CodeManagementRecipe.py.swp
-bb02a8cb0bb384348bc55bde1e243daa|baselib/jpackages/ActionManager.py
-bc2809695f3ef38074c64cef0bdf7152|baselib/jpackages/CodeManagementRecipe.py
+9867a94c01bb71a26f7b6ab3f2cb5cc4|baselib/jpackages/.JPackageObject.py.swp
+430e1329dc45576bcb181f1a0199c97d|baselib/jpackages/ActionManager.py
+edcac14633c2647d8d9c9edde44939a6|baselib/jpackages/CodeManagementRecipe.py
 7685784e46cf9385f0b071dd4522978f|baselib/jpackages/Domain.py
-56099d192ab0908e0011865c2d5a4386|baselib/jpackages/JPackageClient.py
-dffbcec4637627a9e0385dd9d233dfab|baselib/jpackages/JPackageObject.py
+1201be8afd99964208d29b51415b78b2|baselib/jpackages/JPackageClient.py
+c15b3a507d0ac510fc139ba4c3cea320|baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|baselib/jpackages/JPackageStateObject.py
 4fd08f89173b550314c1beba0a3c1937|baselib/jpackages/JPackagesGenDocs.py
 63ccdd6be6a4cdfa66db514cc50f7843|baselib/jpackages/PythonPackage.py
@@ -167,7 +169,7 @@ f60cfbcbdffd3b2461b7313612e139d5|baselib/jpackages/templates/actions/upload.py
 f4321408dc1307fbf25f398294739d4c|baselib/jpackages/templates/coderecipe.cfg
 053615ab6f0c7f0dc949def3b06c4443|baselib/jpackages/templates/description.wiki
 1569bafaf18d7cba956ae71a74109f6d|baselib/jpackages/templates/documentation/main.wiki
-506f62aa9d8f30eb48ff53b25e37b42c|baselib/jpackages/templates/hrd/code.hrd
+b44b50132fcb763eecfd95461861cf29|baselib/jpackages/templates/hrd/code.hrd
 ccc35ca973eeb347435798ce5e799870|baselib/jpackages/templates/hrd/main.hrd
 6b711dedc99282728286064a1b33becb|baselib/jpackages/templates/hrdactive/_example.hrd
 c41a8583ecea369917c697a5c5ebab20|baselib/jpackages/templates/hrdactive/readme.txt
@@ -191,7 +193,7 @@ a43455f0eb8ee58d53d1b1bea91e636c|baselib/key_value_store/store_factory.py
 b8de973c764339377f4baf5d8cf9ea7b|baselib/lrucache/RWCache.py
 df69fd931770afcf7774102ae9bbad55|baselib/lrucache/__init__.py
 20d943b7eeaa8f71cb2d823a1edec22f|baselib/mailclient/__init__.py
-543bef3294c03f130b8a4452cbb5d667|baselib/mailclient/emailclient.py
+1a07a351bf55c11599fddfb3eea607e7|baselib/mailclient/emailclient.py
 815969c78589b425436bf12599dc4e97|baselib/manage/__init__.py
 5753e8adb05dde5608c69b7cda04d0d7|baselib/manage/managerbase.py
 6351073cd8234326def1fd645620912d|baselib/mercurial/HgLibClient.py
@@ -219,7 +221,7 @@ d41d8cd98f00b204e9800998ecf8427e|baselib/platforms/ubuntu/__init__.py
 c08c4b0b9db931cc8b05fe60843c512d|baselib/portapps/PortApps.py
 04ae1587c1a244cd425bd1d11a4ed8a0|baselib/redis/Redis.py
 5915621f3a2e746a381e42b3f27e6831|baselib/redis/__init__.py
-8fef66898daf056b646cf743dce290d7|baselib/redisworker/RedisWorker.py
+a62169170530fbc4c50d2a9f1ef2926a|baselib/redisworker/RedisWorker.py
 da7c7dbc59ee6f69a677572e362d514a|baselib/redisworker/__init__.py
 7684d67b0d04a249d168defa0895c485|baselib/remote/__init__.py
 f793e4e58dbe9cc472a1c9a78e88d9da|baselib/remote/avahi/Avahi.py
@@ -275,7 +277,7 @@ e0bd3623ca693862f2d526fe4a667b39|baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|baselib/ssl/extension.cfg
-5829795dac671a1c668db736b00b9585|baselib/startupmanager/StartupManager.py
+9d1f469757bee3df57b6cc7dc1a87e8d|baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|baselib/startupmanager/__init__.py
 99f8c85d22b83bb1a0a3924e3a053643|baselib/stataggregator/StatAggregator.py
 604d98bd5ee1de2954e235851ba9b730|baselib/stataggregator/__init__.py
@@ -321,7 +323,7 @@ eedc37611bf89c07a869165c3cbbd909|baselib/zredisgw/__init__.py
 fb68a9cf8620b5c36417803db1f00a8f|core/__init__.py
 e3c66f62a2897606a2869922b1e4a773|core/_defaultcontent/cfg/hrd/python.hrd
 40f06c9a71934a218a79fb09899290af|core/_defaultcontent/cfg/hrd/system.hrd
-52dceb5e641ed62cc1a322d6ac11eeb6|core/_defaultcontent/cfg/jpackages/sources.cfg
+41cc30291ed42d7493eab177491269aa|core/_defaultcontent/cfg/jpackages/sources.cfg
 4ce08b18fbed21f5bb56a4c96a3935a8|core/_defaultcontent/cfg/jsconfig/bitbucket.cfg
 dc7df2a593e156a10e010e1c39ed8345|core/_defaultcontent/cfg/jsconfig/blobstor.cfg
 8b8dc6843e555462e524c9783981b212|core/_defaultcontent/cfg/jsconfig/main.cfg
@@ -413,11 +415,12 @@ a3c00521a2a060de236e88e96355328e|core/shellconfig/ConfigFileManager.py
 350ddb63c31f6878bf24843d8f959253|core/shellconfig/DeclarativeConfig.py
 647ab20b802181d20586b23e95fcd367|core/shellconfig/ShellConfig.py
 055c9dcd95f436be95e8bd55b19c8a77|core/shellconfig/__init__.py
+31aa44798eedb569a3dbcbc0213fc586|core/system/.fs.py.swp
 e8ac75481e67749ad29b0c4fcc0a6daa|core/system/System.py
 45a9765f8cd6e9cac39cf0665b1d61e7|core/system/TarFile.py
 a84c367b650cebf8a3c5253f8702c540|core/system/ZipFile.py
 133823c667248c69521b87c850f9c197|core/system/__init__.py
-43738aa40b8f06ad5bf89ae6a8cdb347|core/system/fs.py
+129a3275120880e660e23e3563c9bfe4|core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|core/system/fswalker.py
 baa39ca38578866f223926bbf503cc65|core/system/net.py
 91ecde77806e3c7fc79da70bcda603f4|core/system/process.py
