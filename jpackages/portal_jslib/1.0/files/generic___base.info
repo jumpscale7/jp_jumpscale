@@ -1,4 +1,4 @@
-18d97a08a2f9e259a2b41c610d86a659
+ae6b882db5012159ca8af78f8434eb45
 644524e310a83d3d5688c3478c764e28|apps/portals/jslib/angular/angular-animate.js
 2bc8d3d87322db014de4983e2ce9e69b|apps/portals/jslib/angular/angular-animate.min.js
 d63cf47ebf12a51fb1dc7f6d12d22fec|apps/portals/jslib/angular/angular-animate.min.js.map
@@ -340,6 +340,18 @@ cb3a0a036cfb442ac5faaeec1981b320|apps/portals/jslib/bootstrap/js/hint/xml-hint.j
 8f4a0aaa78f4143cf1c3260349625fad|apps/portals/jslib/codemirror/python-hint.js
 29e1e6d490d9e978863eaee984ab4030|apps/portals/jslib/codemirror/python.js
 fdfdfc7a257f393d6f2f30fbcfbcc6eb|apps/portals/jslib/codemirror/show-hint.js
+a72fff216761459ebe92ef782c02d6ae|apps/portals/jslib/famous/css/app.css
+b01437ea5f578d2647d283527013dc9f|apps/portals/jslib/famous/css/famous.css
+ae73c8bed1c2bde17ed6ba26b9fb2623|apps/portals/jslib/famous/img/arrows/left-arrow-2.png
+3a533d59a34550914bab5f8b95b6a4bc|apps/portals/jslib/famous/img/arrows/right-arrow-2.png
+3959d29a101186a5e09104d42fd4a1ea|apps/portals/jslib/famous/js/classList.js
+4b03ea5b1489a67ed70493e158d3d3f5|apps/portals/jslib/famous/js/classList.min.js
+d61608f27543dc3bec3e474056899da5|apps/portals/jslib/famous/js/famous.js
+7570e3893f6f0b3ef87c9d83443a777a|apps/portals/jslib/famous/js/famous.min.js
+8960bb82fb6b3fa81f340ab130272edc|apps/portals/jslib/famous/js/famous_init.js
+a2a78f3f753ccc5e658e6428c4f89b28|apps/portals/jslib/famous/js/functionPrototypeBind.js
+fde2c3646da5da54ffb3c5a980ddc9dc|apps/portals/jslib/famous/js/requestAnimationFrame.js
+6bd2f88aafdbf67d47f03d6eac64ddc7|apps/portals/jslib/famous/js/require.js
 a494877586e2a5a1fc170dd32aa47624|apps/portals/jslib/flatui/css/demo.css
 ab24a8d17e35a346355c6c6b30bef47f|apps/portals/jslib/flatui/css/docs.css
 f09e0b016dbe29a5e284d5e619b0bb8a|apps/portals/jslib/flatui/css/flat-ui.css
