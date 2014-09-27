@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=jumpscale_examples
+jp.name=prototypes_jumpscale
 jp.version=1.0
 jp.autobuild=0
 
@@ -21,5 +21,6 @@ jp.bundles=ubuntu64:23dc154b39e9279cafa94602b62b822d
 #jp.dependency.1.domain = jumpscale
 #jp.dependency.1.minversion= 1
 #jp.dependency.1.maxversion= 2
-jp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e
+#jp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e
+
 jp.debug=1
