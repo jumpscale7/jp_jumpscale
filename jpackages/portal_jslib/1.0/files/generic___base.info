@@ -1,4 +1,4 @@
-ae6b882db5012159ca8af78f8434eb45
+aa984e67c059d60772e6bd3d50f7fb82
 644524e310a83d3d5688c3478c764e28|apps/portals/jslib/angular/angular-animate.js
 2bc8d3d87322db014de4983e2ce9e69b|apps/portals/jslib/angular/angular-animate.min.js
 d63cf47ebf12a51fb1dc7f6d12d22fec|apps/portals/jslib/angular/angular-animate.min.js.map
@@ -1214,6 +1214,7 @@ cd8b0bffc85bb5614385ee4ce3596d07|apps/portals/jslib/old/swagger/lib/jquery-1.8.0
 dfdfedded79405d28259db54e838fa98|apps/portals/jslib/old/swagger/swagger-ui.js
 f547ffa1b395ce77b144376b615c2a0a|apps/portals/jslib/old/swagger/swagger-ui.min.js
 70c2fb0fe5ae19881326bc10755d9b74|apps/portals/jslib/old/tableofcontents/jquery.tableofcontents.min.js
+35b98ba98190854841e3bbd8aadfd4e3|apps/portals/jslib/sharing-buttons/css/sharing-buttons.css
 f2b0a61b3a739d03e88401e2a1163588|apps/portals/jslib/spin.min.js
 6dc59d3a72ad547168cf823c2fddc728|apps/portals/jslib/underscore/underscore-min.js
 ba5c11e83668c43afaf12f0054736113|apps/portals/jslib/underscore/underscore.js
