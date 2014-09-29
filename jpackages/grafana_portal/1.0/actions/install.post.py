@@ -6,6 +6,8 @@ def main(j,jp):
     serverip = influxhrd.get('influxdb.client.addr')
     if j.system.net.isIpLocal(serverip):
         serverip = 'window.location.hostname'
+    else:
+        serverip = "'%s'" % serverip
     configpath = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'portals', 'jslib', 'grafana', 'config.js')
     j.dirs.replaceFilesDirVars(configpath, additionalArgs={'serverip': serverip})
     import JumpScale.baselib.influxdb
