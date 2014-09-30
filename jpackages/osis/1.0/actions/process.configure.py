@@ -38,4 +38,4 @@ def main(j,jp):
         stats=False,\
         processfilterstr="")#what to look for when doing ps ax to find the process
     
-    pd.start()
+    jp.start()
