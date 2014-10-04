@@ -1,4 +1,4 @@
-60aa61c92ab8ab9b71cff8338ecdde61
+7d8b5f1218395238476d89c5d5c6a338
 f1e9f3a34f0a556f262319a4113a5ace|opt/lua51/bin/curl
 441e1674c957b9ae5f4e3bfed9331dc5|opt/lua51/bin/glue
 3af6dae1c026888f9bc36549ffd1899e|opt/lua51/bin/iconv
@@ -22,7 +22,7 @@ cc54339b873f1b214e8839ad62a88b8d|opt/lua51/bin/srlua
 3925678527bc0ff55ea026463991e33d|opt/lua51/bin/summary
 9c1b7ed3a246335d7649ed033870ea8c|opt/lua51/bin/unzip
 da6008eae608d35f77dcf814e25255a0|opt/lua51/bin/zip
-8b90509f682c77ae0f9e9dbc54f072da|opt/lua51/env.sh
+6160a0e577a6b1da8c532ff9b1c07a29|opt/lua51/env.sh
 9ee455010892bdf666d56ba254ef06e5|opt/lua51/include/lauxlib.h
 1e7a0795a956b81c1934dc9f43864831|opt/lua51/include/lua.h
 9fac7d7bf2a86babec4b57d3904495c8|opt/lua51/include/lua.hpp
@@ -687,3 +687,4 @@ fa12cebe3428fb192b93e7e71b725784|opt/lua51/share/penlight/README.txt
 90ba5e9becd1b42fceaf4a1fbc79e664|opt/lua51/share/vstruct/COPYING
 04d43c5d70b496c032308106e26ae17d|opt/lua51/share/zip/LICENSE
 b83d6128ba856ed6b8cd0f2ca8d072ca|opt/lua51/share/zip/README
+0723b857553a9ac68ca31d32ba52a220|opt/lua51/try.moon
