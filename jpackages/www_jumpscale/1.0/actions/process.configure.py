@@ -1,3 +1,7 @@
 def main(j,jp):
    
-    pass
+
+
+    jp=j.packages.findNewest("jumpscale","portal")
+    jp.load("$(portal.instance)")
+    jp.restart()
