@@ -2,7 +2,6 @@ def main(j,jp):
     #start the application (only relevant for server apps)
     jp.log("start $(jp.name)")
 
-
     osisinstance = jp.hrd_instance.get('osis.connection')
     osisclientjp = j.packages.findNewest('jumpscale', 'osis_client')
     osisclientjp.load(osisinstance)
