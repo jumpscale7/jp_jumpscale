@@ -15,7 +15,7 @@ def main(j,jp):
     #isJSapp: to tell system if process will self register to redis (is jumpscale app)
 
     pd=j.tools.startupmanager.addProcess(\
-        name="shellinabox",\
+        name="jsjail",\
         cmd="shellinaboxd -s ", \
         args="'/:root:root:/root:python  $base/apps/jail/shellinabox_launcher.py ${url}' -p $(shellinabox.port) -t --linkify=aggressive",\
         env={},\
