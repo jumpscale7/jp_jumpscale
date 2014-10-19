@@ -1,8 +1,8 @@
 #grid.useavahi=0
 
-#grid.master.ip=
-#grid.master.port=5544
-#grid.master.superadminpasswd=
+grid.master.ip=
+grid.master.port=5544
+grid.master.superadminpasswd=
 
 grid.id=
 

@@ -1,6 +1,8 @@
 def main(j,jp):
     j.packages.findNewest('jumpscale', 'mailclient').install()
 
+    rootpasswd='rooter'
+
     mongodb = j.packages.findNewest('jumpscale', 'mongodb')
     mongodata = {'mongodb.host': '127.0.0,1',
                  'mongodb.port': '27017',
@@ -29,23 +31,46 @@ def main(j,jp):
     osis = j.packages.findNewest('jumpscale', 'osis')
     osisdata = {'osis.key': '',
             'osis.connection': 'mongodb:main influxdb:main',
-            'osis.superadmin.passwd' :'rooter'}
-    osis.install(instance='main', hrddata=osisdata)
+            'osis.superadmin.passwd' :rootpasswd}
+    osis.install(instance='main', hrddata=osisdata,reinstall=True)
 
     osisclient = j.packages.findNewest('jumpscale', 'osis_client')
     osisclientdata = {'osis.client.addr': 'localhost',
                       'osis.client.port': '5544',
                       'osis.client.login': 'root',
-                      'osis.client.passwd': 'rooter'}
-    osisclient.install(instance='main', hrddata=osisclientdata)
+                      'osis.client.passwd': rootpasswd}
+    osisclient.install(instance='main', hrddata=osisclientdata,reinstall=True)
+
+    #generate admin/admin user
+    j.application.config.set("grid.master.superadminpasswd",rootpasswd)
+    j.application.config.set("osis.superadmin.passwd",rootpasswd)
+
+    j.application.loadConfig()
+    
+    osis=j.core.osis.getClient("localhost",5544,user="root")
+    userclient=j.core.osis.getClientForCategory(osis,"system","user")
+    user=userclient.new()
+    user.id="admin"
+    user.groups="admin"
+    user.emails=""
+    user.domain="jumpscale"
+    user.passwd="admin"
+    user.mobile=""
+    user.xmpp=""
+    user.description=""
+    user.authkeys=""
+    guid,a,b=userclient.set(user)
+    user=userclient.get(guid)
+    print "user created:\n%s"%user
 
     portal = j.packages.findNewest('jumpscale', 'portal')
     portaldata = {'portal.port': '82',
                   'portal.ipaddr': 'localhost',
-                  'portal.admin.passwd': 'rooter',
+                  'portal.admin.passwd': rootpasswd,
                   'portal.name': 'main',
                   'osis.connection': 'main'}
-    portal.install(instance='main', hrddata=portaldata)
+    portal.install(instance='main', hrddata=portaldata,reinstall=True)
+    portal.start()
 
     docportal = j.packages.findNewest('jumpscale', 'doc_jumpscale')
     docportal.install(instance='main', hrddata={'portal.instance': 'main'})
@@ -58,12 +83,12 @@ def main(j,jp):
 
     webdisclient = j.packages.findNewest('jumpscale', 'webdis_client')
     webdisclientdata = {'addr': '127.0.0.1', 'port': '7779'}
-    webdisclient.install(instance='main', hrddata=webdisclientdata)
+    webdisclient.install(instance='main', hrddata=webdisclientdata,reinstall=True)
 
     ac = j.packages.findNewest('jumpscale', 'agentcontroller')
     acdata = {'osis.connection': 'main',
             'webdis.connection': 'main'}
-    ac.install(instance='main', hrddata=acdata)
+    ac.install(instance='main', hrddata=acdata,reinstall=True)
     ac.start()
 
     #now part of jsagent
@@ -79,6 +104,6 @@ def main(j,jp):
             'ac.login':'node',
             'ac.passwd':'EMPTY'
             }
-    pm.install(instance='main', hrddata=pmdata)
+    pm.install(instance='main', hrddata=pmdata,reinstall=True)
 
 

@@ -1,0 +1,15 @@
+#grid.useavahi=0
+
+grid.master.ip=localhost
+grid.master.port=5544
+grid.master.superadminpasswd=rooter
+
+grid.id=1
+
+grid.node.id =
+grid.node.roles = node,computenode.kvm
+grid.node.machineguid =
+
+
+osis.superadmin.passwd=
+
