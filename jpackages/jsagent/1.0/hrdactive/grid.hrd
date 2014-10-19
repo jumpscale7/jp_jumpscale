@@ -8,4 +8,4 @@ grid.id= @ASK typr=int descr:Enter__grid__id
 grid.node.id =
 grid.node.machineguid =
 grid.node.roles = @ASK name:roles descr:Roles__comma__separated type:str default:node
-
+agentcontroller.webdiskey=
