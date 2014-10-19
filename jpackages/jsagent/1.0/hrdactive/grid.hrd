@@ -1,5 +1,5 @@
 grid.id=
 grid.node.id =
-grid.node.roles = @ASK name:roles descr:Roles__comma__separated type:str default:node
 grid.node.machineguid =
+grid.node.roles = @ASK name:roles descr:Roles__comma__separated type:str default:node
 
