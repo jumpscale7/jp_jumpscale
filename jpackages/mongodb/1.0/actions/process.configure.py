@@ -14,8 +14,10 @@ def main(j,jp):
     #timeoutcheck: how long do we wait to see if app active
     #isJSapp: to tell system if process will self register to redis (is jumpscale app)
     args = ""
-    if "$(mongodb.replicaset)" != "":
-        args  = "--replSet $(mongodb.replicaset)"
+    if jp.hrd.exists("mongodb.replicaset"):
+        repset = jp.hrd.get("mongodb.replicaset")
+        if repset != "":
+            args  = "--replSet '%s'" % repset
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
