@@ -1,13 +1,14 @@
+<<<<<<< HEAD
 #grid.useavahi=0
 
 grid.master.ip=
 grid.master.port=5544
 grid.master.superadminpasswd=
 
+=======
+>>>>>>> db2ace9602d740181858cc17b84197cc62b2dbc0
 grid.id=
-
 grid.node.id =
-grid.node.roles = @ASK name:roles descr:roles__comma_separated type:str default:node,computenode.kvm
 grid.node.machineguid =
-
+grid.node.roles = @ASK name:roles descr:Roles__comma__separated type:str default:node
 
