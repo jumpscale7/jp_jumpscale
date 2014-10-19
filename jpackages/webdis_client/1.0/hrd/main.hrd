@@ -15,7 +15,3 @@ jp.buildnr=-1
 jp.taskletschecksum=
 jp.descrchecksum=
 jp.hrdchecksum=
-
-##dependencies
-#jp.dependency.1.name = processmanager
-#jp.dependency.1.domain = jumpscale

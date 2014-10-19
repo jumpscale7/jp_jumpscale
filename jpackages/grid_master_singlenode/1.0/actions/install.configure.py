@@ -42,11 +42,16 @@ def main(j,jp):
     osisclient.install(instance='main', hrddata=osisclientdata,reinstall=True)
 
     #generate admin/admin user
+    j.application.loadConfig()
     j.application.config.set("grid.master.superadminpasswd",rootpasswd)
     j.application.config.set("osis.superadmin.passwd",rootpasswd)
+    if j.application.config.get("agentcontroller.webdiskey")=="" or j.application.config.get("agentcontroller.webdiskey")=="EMPTY":
+      j.application.config.set("agentcontroller.webdiskey",j.base.idgenerator.generateGUID())
 
     j.application.loadConfig()
-    
+
+    import JumpScale.grid.osis
+
     osis=j.core.osis.getClient("localhost",5544,user="root")
     userclient=j.core.osis.getClientForCategory(osis,"system","user")
     user=userclient.new()

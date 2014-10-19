@@ -10,6 +10,3 @@ grid.node.id =
 grid.node.roles = node,computenode.kvm
 grid.node.machineguid =
 
-
-osis.superadmin.passwd=
-
