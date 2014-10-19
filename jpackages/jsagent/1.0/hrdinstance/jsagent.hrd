@@ -1,0 +1,14 @@
+
+ac.ipaddress=@ASK default:localhost
+ac.port=4444
+ac.login=@ASK descr:default(node) default:node
+ac.passwd=@ASK descr:passwd?_leave__empty__for__node default:EMPTY
+osis.connection=processmanager
+webdis.connection=main
+agentcontroller.connection=main
+
+
+
+
+
+

@@ -2,6 +2,8 @@ def main(j,jp):
     dpath = "$vardir/redis/$(redis.name)"
     cpath = j.system.fs.joinPaths(dpath, "redis.conf")
     port=int($(redis.port))
+    if jp.instance=="mem" or jp.instance=="disk":
+        return
     pd=j.tools.startupmanager.addProcess(\
         name="redis_$(redis.name)",\
         cmd="$base/apps/redis/redis-server", \

@@ -66,19 +66,19 @@ def main(j,jp):
     ac.install(instance='main', hrddata=acdata)
     ac.start()
 
-    acclient = j.packages.findNewest('jumpscale', 'agentcontroller_client')
-    acclientdata = {'agentcontroller.client.addr': '127.0.0.1',
-                    'agentcontroller.client.login': 'node',
-                    'agentcontroller.client.port': '4444'}
-    acclient.install(instance='main', hrddata=acclientdata)
+    #now part of jsagent
+    # acclient = j.packages.findNewest('jumpscale', 'agentcontroller_client')
+    # acclientdata = {'agentcontroller.client.addr': '127.0.0.1',
+    #                 'agentcontroller.client.login': 'node',
+    #                 'agentcontroller.client.port': '4444'}
+    # acclient.install(instance='main', hrddata=acclientdata)
 
-    pm = j.packages.findNewest('jumpscale', 'processmanager')
-    pmdata = {'agentcontroller.connection': 'main',
-              'webdis.connection': 'main',
-              'osis.connection': 'main'}
+    pm = j.packages.findNewest('jumpscale', 'jsagent')
+    pmdata = {'ac.ipaddress':'localhost',
+            'ac.port':4444,
+            'ac.login':'node',
+            'ac.passwd':'EMPTY'
+            }
     pm.install(instance='main', hrddata=pmdata)
 
 
-    workers = j.packages.findNewest('jumpscale', 'workers')
-    workers.install(instance='main', hrddata={'osis.connection': 'main'})
-    workers.start()
