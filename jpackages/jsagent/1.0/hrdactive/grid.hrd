@@ -4,7 +4,7 @@ grid.master.ip=
 grid.master.port=5544
 grid.master.superadminpasswd=
 
-grid.id=
+grid.id= @ASK typr=int descr:Enter__grid__id
 grid.node.id =
 grid.node.machineguid =
 grid.node.roles = @ASK name:roles descr:Roles__comma__separated type:str default:node
