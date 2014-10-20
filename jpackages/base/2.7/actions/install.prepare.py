@@ -21,7 +21,7 @@ def main(j,jp):
     #                'libmhash2') # required by mhash #@todo copy to sandbox
 
     if j.system.platform.ubuntu.check():
-        debpackages = ("byobu","tmux")
+        debpackages = ("byobu","tmux", 'libmhash2')
 
         for name in debpackages:
             print "install %s" % name
