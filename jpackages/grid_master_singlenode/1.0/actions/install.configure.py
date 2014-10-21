@@ -52,21 +52,22 @@ def main(j,jp):
 
     import JumpScale.grid.osis
 
-    osis=j.core.osis.getClient("localhost",5544,user="root")
+    osis=j.core.osis.getClient("localhost",5544,user="root",passwd=rootpasswd)
     userclient=j.core.osis.getClientForCategory(osis,"system","user")
-    user=userclient.new()
-    user.id="admin"
-    user.groups="admin"
-    user.emails=""
-    user.domain="jumpscale"
-    user.passwd="admin"
-    user.mobile=""
-    user.xmpp=""
-    user.description=""
-    user.authkeys=""
-    guid,a,b=userclient.set(user)
-    user=userclient.get(guid)
-    print "user created:\n%s"%user
+    if userclient.search({"id": "admin"})[0] == 0:
+        user=userclient.new()
+        user.id="admin"
+        user.groups= ["admin"]
+        user.emails=""
+        user.domain="jumpscale"
+        user.passwd="admin"
+        user.mobile=""
+        user.xmpp=""
+        user.description=""
+        user.authkeys=""
+        guid,a,b=userclient.set(user)
+        user=userclient.get(guid)
+        print "user created:\n%s"%user
 
     portal = j.packages.findNewest('jumpscale', 'portal')
     portaldata = {'portal.port': '82',
