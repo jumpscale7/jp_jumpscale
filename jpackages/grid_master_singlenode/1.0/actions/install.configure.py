@@ -57,7 +57,7 @@ def main(j,jp):
     if userclient.search({"id": "admin"})[0] == 0:
         user=userclient.new()
         user.id="admin"
-        user.groups="admin"
+        user.groups= ["admin"]
         user.emails=""
         user.domain="jumpscale"
         user.passwd="admin"
