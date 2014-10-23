@@ -9,6 +9,10 @@ def main(j,jp):
     else:
         serverip = "'%s'" % serverip
     configpath = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'portals', 'jslib', 'grafana', 'config.js')
+    if j.system.fs.isLink(configpath):
+        source = j.system.fs.readlink(configpath)
+        j.system.fs.remove(configpath)
+        j.system.fs.copyFile(source, configpath)
     j.dirs.replaceFilesDirVars(configpath, additionalArgs={'serverip': serverip})
     import JumpScale.baselib.influxdb
     addr = influxhrd.get('influxdb.client.addr')
