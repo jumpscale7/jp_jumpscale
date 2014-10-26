@@ -1,4 +1,4 @@
-ba6cc0359f30c167f63703c78ddfa083
+d895348107e948139df6f3d0f31df87a
 0f44b2d4562f4c8eba46865fb53ea6c5|bin/Python-2.7.egg-info
 e9c2d3723498cdfd64c0231cf37f74db|bin/_bsddb.x86_64-linux-gnu.so
 73d48a1edff94ec29c237f391a38aa2e|bin/_codecs_cn.x86_64-linux-gnu.so
@@ -1995,6 +1995,7 @@ ab17461062c87d5a9b9cc1154fff3866|lib/scalarmath.so
 f5e1db72b0ff29276b3afe0f9c9408ad|lib/simplejson/tool.py
 b05b5d8d8acb005276dfd9a71523fdd2|lib/site.py
 d149179425957ea7a305859647f13908|lib/strxor.so
+91ff969393268ffa979587f17e7368fb|lib/toml.py
 d08f2c1a1fb7439f7e1a164d89e0beb3|lib/tornado/__init__.py
 8ceb4f2170a3be6991a53825655ae56f|lib/tornado/auth.py
 6e2e647f1c0c3a78614953e526d1477c|lib/tornado/autoreload.py
