@@ -12,4 +12,21 @@ def main(j,jp):
     #configuration is not done in this step !!!!!
     #preparation like system preps like ubuntu deb installs also not done here
     
-    pass
+    j.system.fs.createDir("/opt/heka/cfg")
+
+    C="""
+[hekad]
+#maxprocs = 2
+share_dir = "/opt/heka/share"
+
+[PayloadEncoder]
+append_newlines = false
+
+[TcpInput]
+address = "localhost:999"
+parser_type = "token"
+delimiter = "\\n"
+
+"""
+
+    j.system.fs.writeFile(filename="/opt/heka/cfg/main.toml",contents=C)
