@@ -1,4 +1,4 @@
-96912ec585309b646fa913d7d30be2dd
+1b1ebff71d57cd875ad7007d7956e214
 406b3cb8fa0c16e9a76c9ef548b440d5|opt/heka/bin/heka-cat
 667636502696380d1bda6eedb6f0c500|opt/heka/bin/heka-flood
 97e5d601147dd8179dcbdf2b7cc31c42|opt/heka/bin/heka-inject
@@ -8,7 +8,11 @@ f18c4434c675bf82729a92eb298fc17e|opt/heka/bin/heka-logstreamer
 8f62c54055cfd23c92ab65b3bdf2e793|opt/heka/bin/hekad
 62828ecc3eb7185a5cc359de4f3004f4|opt/heka/bin/hekad.toml.sbmgr
 fb6ea7f87f925f38a117d3a1e572d324|opt/heka/bin/sbmgr.toml
+e2addac74fab30ad9c4fcdd4d39ca55b|opt/heka/cfg/main.toml
+cc6d33332a63b9e399c9d6c669d0d95e|opt/heka/examples/hekad.toml
 cc6d33332a63b9e399c9d6c669d0d95e|opt/heka/hekad.toml
+7ac9925c51666bf29125c3822b0ffb2d|opt/heka/logserver_tcp.py
+3dd5c5e65aa40a9099276c06d1a18414|opt/heka/logserver_udp.py
 88a06d2c35aa9ecb8cef616147b00e2a|opt/heka/share/LICENSE.txt
 646cea4576f762dc653f5fd4b1ead7a1|opt/heka/share/dasher/.jshintrc
 2f7d6ca1d5a8f4d2c2c7f6b1ce2e351f|opt/heka/share/dasher/css/bootstrap.min.css
