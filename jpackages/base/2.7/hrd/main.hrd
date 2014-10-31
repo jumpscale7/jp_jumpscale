@@ -8,7 +8,7 @@ jp.description=!(../description.wiki)
 jp.buildnr=1
 jp.export=0
 
-jp.taskletschecksum=ccdc2cf53eb45de8a9b558228ff1917c
+jp.taskletschecksum=43c24db00fa0d3950df671f22aeafe6c
 jp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:2ff690fd37c926d3032a447d0285521a
 
 jp.descrchecksum=6eb3d439d91ba5942a4e12599508c777

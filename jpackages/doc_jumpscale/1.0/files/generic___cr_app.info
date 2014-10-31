@@ -1,4 +1,4 @@
-84540a4d3bc715cff996b13f01eac48a
+8dc3aa3c20a63590deb1469e8c26f17a
 a25f212ecd42f769013a9c6957b74eed|base/Doc_Jumpscale_Core/.macros/wiki/menuadmin_jdoc/1_menuadmin.py
 16c1af4d89a24943ccc91c5b4b2e60a5|base/Doc_Jumpscale_Core/.space/acl.cfg
 3aa5d51f689770c8913164cd80a1b8a8|base/Doc_Jumpscale_Core/.space/default.wiki
@@ -7,11 +7,11 @@ a25f212ecd42f769013a9c6957b74eed|base/Doc_Jumpscale_Core/.macros/wiki/menuadmin_
 b8af6978955bc21d04eb5677e57577a9|base/Doc_Jumpscale_Core/.space/notfound.wiki
 42c4b9d58a09972d25b717cdeaff78d2|base/Doc_Jumpscale_Core/.space/template.wiki
 4f7c20f2d579f870622b2bbf05a379f9|base/Doc_Jumpscale_Core/Docs/Docs.wiki
-c2ea859bed7089d74ff52e4211184743|base/Doc_Jumpscale_Core/Docs/GettingStarted/Configuration Files.wiki
+8051da94b69094b47e90c8c537049f93|base/Doc_Jumpscale_Core/Docs/GettingStarted/Configuration Files.wiki
 4f7c20f2d579f870622b2bbf05a379f9|base/Doc_Jumpscale_Core/Docs/GettingStarted/GettingStarted.wiki
 67b8f97056bf43581561269d5e1d9076|base/Doc_Jumpscale_Core/Docs/GettingStarted/GettingStartedBasic.wiki
 8aae0f9657fb7e5ac7968540d68ccdc9|base/Doc_Jumpscale_Core/Docs/GettingStarted/How To Use APIs.wiki
-e6b5fa16fd94ac7ab2dcffc10e355405|base/Doc_Jumpscale_Core/Docs/GettingStarted/Human Readable Data.wiki
+e0469cd7d2ee1bfa811df9ac6d5a54e4|base/Doc_Jumpscale_Core/Docs/GettingStarted/Human Readable Data.wiki
 e3cd9d265b67cd8332791898bf779119|base/Doc_Jumpscale_Core/Docs/GettingStarted/IPythonTricks.wiki
 f3bbe26f21632f82baa6759c8ae90651|base/Doc_Jumpscale_Core/Docs/GettingStarted/JumpScale License.wiki
 c9560b2314ea9253d841cb9bc600c3ed|base/Doc_Jumpscale_Core/Docs/GettingStarted/JumpScale-Pylabs.wiki
@@ -60,8 +60,8 @@ cac6a0a4add2b279c859fc0dbc19209f|base/Doc_Jumpscale_Devel/Docs/CodeManagement/Co
 bc1809604bd0f7d9d0a1734f67f0683c|base/Doc_Jumpscale_Devel/Docs/HowToWriteMacros/DocManipulatingWikiMacro.wiki
 0777ed014f5c5f73d569853bf17d4c77|base/Doc_Jumpscale_Devel/Docs/HowToWriteMacros/HowToWriteMacros.wiki
 93601cb57147583bffbb7d49c23f7255|base/Doc_Jumpscale_Devel/Docs/Portal/Portal.wiki
-d8591a6242309e727865eede506aaa71|base/Doc_Jumpscale_Devel/Docs/Portal/PortalWebserverFlow.wiki
-7d6606c3523f156f7ed915995ec84b5a|base/Doc_Jumpscale_Devel/Docs/Sphinx and ReadTheDocs/HowToDocument.wiki
+12eb773de6c9bcdaad24a28624518435|base/Doc_Jumpscale_Devel/Docs/Portal/PortalWebserverFlow.wiki
+4a032ce35b176c230e3d6044d6ec2205|base/Doc_Jumpscale_Devel/Docs/Sphinx and ReadTheDocs/HowToDocument.wiki
 ac4d5ea9d97d90258b084709c11f1987|base/Doc_Jumpscale_Devel/Docs/index.rst
 5bf895b2fa953cf51886ca1d47f867f1|base/Doc_Jumpscale_Devel/Home.wiki
 a25f212ecd42f769013a9c6957b74eed|base/Doc_Jumpscale_Grid/.macros/wiki/menuadmin_jdoc/1_menuadmin.py
@@ -81,9 +81,12 @@ cc8e7e886e340a730b1934d936305d56|base/Doc_Jumpscale_Grid/Docs/Admin/JSAdmin.wiki
 66e6b88026d33ea3c5bc4dd05db1b42a|base/Doc_Jumpscale_Grid/Docs/Admin/JSExec.wiki
 25c9cac80de1b90d4687ec186505d738|base/Doc_Jumpscale_Grid/Docs/Admin/index.rst
 c89ad26ec8a7cd4f3ff8adace49a7278|base/Doc_Jumpscale_Grid/Docs/AgentController/ACRedis/ACRedis.wiki
-5807fd61933fa21afecbeb61f50424a4|base/Doc_Jumpscale_Grid/Docs/AgentController/AgentController.wiki
+b32a5c68f51cde7b1967c7368c55fed3|base/Doc_Jumpscale_Grid/Docs/AgentController/AgentController.wiki
+c911ce070c0de62495220bd2f39500a2|base/Doc_Jumpscale_Grid/Docs/AgentController/AgentControllerInstall.wiki
 17702a86bda77dc9e606cea94b0241d3|base/Doc_Jumpscale_Grid/Docs/AgentController/AgentControllerServer.wiki
-4e786ad45ff15779856948a107d0c023|base/Doc_Jumpscale_Grid/Docs/AgentController/JumpScript.wiki
+5ad84649b9ddc1b216c0b2eb8d08a7dc|base/Doc_Jumpscale_Grid/Docs/AgentController/DemoSetupTutorial.wiki
+b2bc61a25bcb06f89280c4e5e98c3dc2|base/Doc_Jumpscale_Grid/Docs/AgentController/GridMasterAllInOneInstall.wiki
+6a77e11433a0abd4b9ef271c243463d4|base/Doc_Jumpscale_Grid/Docs/AgentController/JumpScript.wiki
 889990232f6f0e9fd161c4db620de5d4|base/Doc_Jumpscale_Grid/Docs/AgentController/ProcessManager.wiki
 f317a2cbd741be5fb0f3412012454468|base/Doc_Jumpscale_Grid/Docs/AgentController/ScheduleWork.wiki
 21b045fcdc99d41e1df554c417bfa483|base/Doc_Jumpscale_Grid/Docs/AgentController/Workers.wiki
@@ -145,17 +148,17 @@ a6204d5ecb2076ce4b79dcb77783b841|base/Doc_Jumpscale_Howto/Docs/Examples/AsanaCli
 523c5258b50078cd53979544a1c51aad|base/Doc_Jumpscale_Howto/Docs/HowToBlobStorTricks.wiki
 51b540f10e33d8c7ffa3a8766e9c077a|base/Doc_Jumpscale_Howto/Docs/HowToChangeLXCImage.wiki
 2fbd2a01ee97574369a540d63a58e919|base/Doc_Jumpscale_Howto/Docs/HowToCompareDirs.wiki
-770d699aa36b5361877fbe14caf835cc|base/Doc_Jumpscale_Howto/Docs/HowToFSWalker.wiki
+4e42f8cdb2ddfceaf6cb2523309b5b2f|base/Doc_Jumpscale_Howto/Docs/HowToFSWalker.wiki
 7e0a5e01c035ec3a90c49e44014163a4|base/Doc_Jumpscale_Howto/Docs/HowToInstallLXC.wiki
 2581ad28506968e2852ebf7a1d7884ad|base/Doc_Jumpscale_Howto/Docs/HowToJpackageUpdateDetectNewVersion.wiki
-a001ecbfb9d45de0c7e7f49f1afc2e94|base/Doc_Jumpscale_Howto/Docs/HowToNginx.wiki
+48ed674815f5481a05820d30e8871791|base/Doc_Jumpscale_Howto/Docs/HowToNginx.wiki
 8336511b937571a3b0cebe6de8cd1c07|base/Doc_Jumpscale_Howto/Docs/HowToRebuildBunchJpackages.wiki
 40b14e0439b671e61cc64bb7ae3aa58a|base/Doc_Jumpscale_Howto/Docs/HowToRunLocalBlobServer.wiki
 c1873d517a57cc619af97e4ff9e4a0d6|base/Doc_Jumpscale_Howto/Docs/HowToRunYourOwnBlobStorServer.wiki
 64aed716f6337861b3585d90cdd36137|base/Doc_Jumpscale_Howto/Docs/HowToSentry.wiki
 358967b802af98fdcaec9f0ec120d76f|base/Doc_Jumpscale_Howto/Docs/HowToThrowErrorTxtLonly.wiki
 1a26e395706008c1713751bcdaa78d57|base/Doc_Jumpscale_Howto/Docs/HowToUseHG.wiki
-55bee2a0978cf5ac1f310e8f6853cd9f|base/Doc_Jumpscale_Howto/Docs/HowToUseJava.wiki
+1fe115083ff4cbdd2fd355b4db41c529|base/Doc_Jumpscale_Howto/Docs/HowToUseJava.wiki
 25179ccd2ef8a3b48958f0ae6015a422|base/Doc_Jumpscale_Howto/Docs/HowToUseLXC.wiki
 350f9ea452fcf0517bddbbdc597cbd62|base/Doc_Jumpscale_Howto/Docs/HowToWorkWithProcessmanager.wiki
 dc26645b223e3abe5630e0c1bf9e42ee|base/Doc_Jumpscale_Howto/Docs/_DownloadLXCBase.wiki
@@ -273,7 +276,7 @@ a73d902743da42e4990b29ce8078e4de|base/Doc_Jumpscale_Libraries/Docs/db/j.db.seria
 c44e221a2b35458aa5c2fd066788363a|base/Doc_Jumpscale_Libraries/Docs/db/j.db.serializers.wiki
 d45a87d8558f107bd3ec88d67aab0a0e|base/Doc_Jumpscale_Libraries/Docs/db/j.db.tlog.wiki
 eb151835abf46f3f90c99b04362e5b3e|base/Doc_Jumpscale_Libraries/Docs/dirs/dirs.wiki
-4e19290231777d80660563cf2d59ec8d|base/Doc_Jumpscale_Libraries/Docs/dirs/j.dirs.wiki
+2ff3171c1cf87515843ec980b1e2bfc2|base/Doc_Jumpscale_Libraries/Docs/dirs/j.dirs.wiki
 93f214a9a87e08562e572becbda35eb4|base/Doc_Jumpscale_Libraries/Docs/enumerators/enumerators.wiki
 2fd937a2159f2d3cd64e30ffab43a791|base/Doc_Jumpscale_Libraries/Docs/enumerators/j.enumerators.AppStatusType.wiki
 21f81081be03110ea2f5ae4b350a6155|base/Doc_Jumpscale_Libraries/Docs/enumerators/j.enumerators.BlobType.wiki
@@ -393,10 +396,15 @@ cb7e8264aefccef96be5ccbace722f9c|base/Doc_Jumpscale_Libraries/Docs/tools/j.tools
 98cff363779569dbb39d70475aceb745|base/Doc_Jumpscale_Libraries/Docs/tools/tools.wiki
 f34400d49e084844320efc238f233553|base/Doc_Jumpscale_Libraries/Home.wiki
 86a73a4e562fd001808cf6d80cc876da|base/Doc_Jumpscale_Portal/.files/.files.wiki
+6e09b99f81845422a6ba064d934a485e|base/Doc_Jumpscale_Portal/.files/img/beach-small.jpg
+a713733372cdceeea9b454524ed92e41|base/Doc_Jumpscale_Portal/.files/img/beach.jpg
 61b80952fac5252162c929437c293a5e|base/Doc_Jumpscale_Portal/.files/img/bear.jpg
 630fd66efb2c736010c6bca81c729b34|base/Doc_Jumpscale_Portal/.files/img/favicon.png
+b4ace73d5c15385ab3669642cc043997|base/Doc_Jumpscale_Portal/.files/img/ghent1.jpg
+c96ec066948d4a593f5f81669134e814|base/Doc_Jumpscale_Portal/.files/img/ghent2.jpg
 9c2115d50db65ce30024f7cd47fb9682|base/Doc_Jumpscale_Portal/.files/img/gorilla.jpg
 86a73a4e562fd001808cf6d80cc876da|base/Doc_Jumpscale_Portal/.files/img/img.wiki
+8ce007e003288ded238a96020d3354c4|base/Doc_Jumpscale_Portal/.files/img/paris.jpg
 bfdde5d691402e796e002bddf14ca2d3|base/Doc_Jumpscale_Portal/.files/img/s_150x100_bear.jpg
 eceb691d3c1faffe4837dcc613bca80c|base/Doc_Jumpscale_Portal/.files/img/s_150x100_favicon.png
 ff886ccca382cadee2ab1555cd6daefe|base/Doc_Jumpscale_Portal/.files/img/s_150x100_gorilla.jpg
@@ -409,6 +417,7 @@ d5043cfbcbcd93f6cd008571b657e78a|base/Doc_Jumpscale_Portal/.files/img/s_300x200_
 ab7e41ff1461598bd8e2eb26c08659ee|base/Doc_Jumpscale_Portal/.files/img/s_500x200_tiger.jpg
 1c0123491062cf276ae07ff1b9299334|base/Doc_Jumpscale_Portal/.files/img/tiger.jpg
 1fefb62721b32b50fa2cc6b984a6623e|base/Doc_Jumpscale_Portal/.files/test.css
+b217ae65ed6e208e59d66b5c26923f03|base/Doc_Jumpscale_Portal/.macros/page/test_popups/1_test_popups.py
 a25f212ecd42f769013a9c6957b74eed|base/Doc_Jumpscale_Portal/.macros/wiki/menuadmin_jdoc/1_menuadmin.py
 16c1af4d89a24943ccc91c5b4b2e60a5|base/Doc_Jumpscale_Portal/.space/acl.cfg
 d582ead870725647324683f6b8996f79|base/Doc_Jumpscale_Portal/.space/default.wiki
@@ -443,9 +452,11 @@ d32ae7df9e275f6599ec503ee6dcc8b9|base/Doc_Jumpscale_Portal/Docs/Macros/Experimen
 c7ebdc7a8156a26d5518398822574ce8|base/Doc_Jumpscale_Portal/Docs/Macros/Experimental/Toggle/Toggle.wiki
 2b009335f890f60da0caefe9e8cdb409|base/Doc_Jumpscale_Portal/Docs/Macros/Experimental/index.rst
 0a6728b66e0cd5d6523652a909d909fb|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Anchor/Anchor.wiki
+3fa5a02278d4d7561c17823e01ea3bfb|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/BannerSlider/BannerSlider.wiki
+666c14a42c837553aa25e511894bef67|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/BigPicture/bigpicture.wiki
 9bcc27ea495308768b912b4fcbb39d92|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/CSS/CSS.wiki
 4799744dbf439ca033f8109c5ca3e840|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Capitalize/Capitalize.wiki
-76b86ec341752c70fecb05b11232ab4d|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Comparison/Comparison.wiki
+5cd3b32a8ab3b04f6d7ef78cc17de253|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Comparison/Comparison.wiki
 a5c89bee694346cfb656b01a41596520|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Cssstyle/Cssstyle.wiki
 1d0e6920568eb34e2cf9d8e200443f53|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Favicon/Favicon.wiki
 55f95f5b4ac007cd0c3ba33533da89db|base/Doc_Jumpscale_Portal/Docs/Macros/HtmlElements/Footer/Footer.wiki
@@ -464,6 +475,7 @@ e75ee7f669b7f6058a8d49b7cacd1df4|base/Doc_Jumpscale_Portal/Docs/Macros/Images/Ca
 a6dcaf03bcf77fb8c2534befda0473ba|base/Doc_Jumpscale_Portal/Docs/Macros/Images/Famous Slider/Famous Slider.wiki
 b70389fc4c0ec3e26533b8d489a184aa|base/Doc_Jumpscale_Portal/Docs/Macros/Images/Gallery/Gallery.wiki
 e8a5ba0ba61c8d6d3f4bc696bde39b05|base/Doc_Jumpscale_Portal/Docs/Macros/Images/Images.wiki
+73030b09ddd3fdc3463711d7732d8ace|base/Doc_Jumpscale_Portal/Docs/Macros/Images/ParallaxSlider/ParallaxSlider.wiki
 9895d3b6c3649de5e3b7bf367f092d8f|base/Doc_Jumpscale_Portal/Docs/Macros/Images/Thumbnail/Thumbnail.wiki
 d23a02a04b75c8574cef7a1eb0262cbb|base/Doc_Jumpscale_Portal/Docs/Macros/Images/index.rst
 d925c7bf159b8120354e590c1ece29f1|base/Doc_Jumpscale_Portal/Docs/Macros/Macros.wiki
@@ -521,24 +533,25 @@ e3dfa26facffea67901dbd72e2b10adc|base/Doc_Jumpscale_Portal/Docs/Macros/WebSiteEl
 d21ce8fd604a0e90e1032df98651b41d|base/Doc_Jumpscale_Portal/Docs/Pagestructure/test1.jpg
 b7cb2e6a5b9f8ea078f640573c0e60bb|base/Doc_Jumpscale_Portal/Docs/Pagestructure/test2.jpg
 9e7bf2943a946b11918fe99fa32ba4d9|base/Doc_Jumpscale_Portal/Docs/Pagestructure/test3.jpg
+a8cd24b32d68f6783fc464e6a720e225|base/Doc_Jumpscale_Portal/Docs/Popups.wiki
 70f9ad918cb8ba7316364af1d2469cf4|base/Doc_Jumpscale_Portal/Docs/Test.wiki
 23f2468f84611f5f89615e60d3c89156|base/Doc_Jumpscale_Portal/Docs/WebServices/RestFullWebservices/RestFullWebservices.wiki
 3eb9cb9e69bec8eb1fd3c564326a8d21|base/Doc_Jumpscale_Portal/Docs/WebServices/RestWebservices/RestWebservices.wiki
 4a3e9e4babf5c36d7edccd5e16c31870|base/Doc_Jumpscale_Portal/Docs/WebServices/WebServices.wiki
 cb6f93a539a39876693af8c2829d0d8e|base/Doc_Jumpscale_Portal/Docs/WebServices/index.rst
-7db5336b3f3f376a6d2b17b1d51c3e89|base/Doc_Jumpscale_Portal/Docs/Wiki Syntax/Wiki Syntax.wiki
+bd276a9a9fd79c3fdb306b06ebe3d6e8|base/Doc_Jumpscale_Portal/Docs/Wiki Syntax/Wiki Syntax.wiki
 529f0c01b3039fb4853241a4d235851f|base/Doc_Jumpscale_Portal/Docs/Wiki Syntax/wiki_textformatting.png
 cd99ebbd2529abe388fd6c85d0c7d341|base/Doc_Jumpscale_Portal/Docs/params.cfg
 aa5e91fe658ca1f94b1b92c26f80b761|base/Doc_Jumpscale_Portal/Home.wiki
 09b1f971f443ca9dd536606e024e7e1b|base/Doc_Jumpscale_Portal/Howto/How to connect to a remote appserver & work with actors.wiki
 c7f4e5313ce05558e7cfcffc14cb806f|base/Doc_Jumpscale_Portal/Howto/How to create your first actor.wiki
-04c134edee005a1fcb9e89ce90b7c945|base/Doc_Jumpscale_Portal/Howto/How to get started.wiki
+c1dd14d282ed5f928e60255f1e97ed4c|base/Doc_Jumpscale_Portal/Howto/How to get started.wiki
 a746cdee62e8f03f081f5f8a00278eec|base/Doc_Jumpscale_Portal/Howto/How to load actors of local appserver and work with actors.wiki
 3ece964dbf3345b710d71c5d0267ff81|base/Doc_Jumpscale_Portal/Howto/How to use the wiki.wiki
 f98031337f8322db5a0867ed2f285efb|base/Doc_Jumpscale_Portal/Howto/How to.wiki
 86a73a4e562fd001808cf6d80cc876da|base/Doc_Jumpscale_Portal/Howto/Howto.wiki
 dabf627e36e56349ccf489ae91c82515|base/Doc_Jumpscale_Portal/Howto/Using the FTP client associated with the appserver.wiki
 b2eaf54f20e2f4c0382e57701ae63276|base/Doc_Jumpscale_Portal/Howto/index.rst
-a67d0366377c91b53379dc37d41f2994|base/Doc_Jumpscale_Portal/Install.wiki
+49ecb7114bc2d53ef3085ee63951f598|base/Doc_Jumpscale_Portal/Install.wiki
 fee0f25b10be0412e1361b1866cdf4ce|base/Doc_Jumpscale_Portal/index.rst
 03ea7765772050fa9f4c6401fb74be45|base/index.rst

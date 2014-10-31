@@ -1,5 +1,6 @@
-d936edf82f484b2786a7b2d4447404d3
-984e51556370d48f5b130f416457d6ab|apps/portals/jslib/grafana/app/dashboards/CPUStats.js
-4ba1aa2781ae0567de99365db0d58fe3|apps/portals/jslib/grafana/app/dashboards/NodeStats.js
+83ffa22a47ff072c2c4d17ca228f816a
+719b21df49ae73c89b4fe39a87eeed4d|apps/portals/jslib/grafana/app/dashboards/CPUStats.js
+f05db2884694bc58d596e37ebdd2f70f|apps/portals/jslib/grafana/app/dashboards/NicStats.js
+88944d8b2dacb94ce57459537484660b|apps/portals/jslib/grafana/app/dashboards/NodeStats.js
 3c28a795685a6e1f0ce4b9a9332830f7|apps/portals/jslib/grafana/config.js
 0a3a2ea0ed4013cd70280f0c73101cd6|apps/portals/jslib/grafana/iframe.html

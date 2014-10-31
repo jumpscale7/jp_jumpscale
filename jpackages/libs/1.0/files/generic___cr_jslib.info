@@ -1,4 +1,4 @@
-d63e0a509a4a02f3bb8058df7015595a
+38b95e55ee9ebedd8d90ea5977773bdf
 d41d8cd98f00b204e9800998ecf8427e|lib/__init__.py
 af62dbfefae63a99282c4563137e89a7|lib/btrfs/BtrfsExtension.py
 79763605cb0cbefaafd60a8e03c533f2|lib/btrfs/__init__.py
@@ -18,14 +18,14 @@ d41d8cd98f00b204e9800998ecf8427e|lib/dataprocessors/__init__.py
 04b5e15f4814f9c4e9e656a2d46db66d|lib/dataprocessors/imagelib/extension.cfg
 72d94b5911b686f2c2f06c7d5cae73eb|lib/dhcp/__init__.py
 1873fad6620b9006f5b3973fc8a5aea0|lib/dhcp/dhcp.py
-6f3a6c7c91c90b3a5448b33a085d5ed3|lib/diskmanager/Diskmanager.py
+834e070211ad2b173c0700fb9ab6cfc4|lib/diskmanager/Diskmanager.py
 a001ec6eefc3441cd954bb24f5a223ef|lib/diskmanager/__init__.py
-86dc1674fae11d20d43ec501a5e62dcc|lib/docker/Docker.py
+90367c66bdf92f106a07561d42219546|lib/docker/Docker.py
 bf9fa29991052534432f62b7a4075398|lib/docker/__init__.py
 bf464f4a6ca0394dfe3fbf3afb518cee|lib/html/HTML2Text.py
 68edacd81153a24794600e2f2cb7a46b|lib/html/HTMLFactory.py
 5e2b1181ef55c70c22bc1f3c953cdd65|lib/html/__init__.py
-6a7ebce2548dd1410c1533038ff0b0bf|lib/jail/JailFactory.py
+695864c817f1c035072e9e626f162219|lib/jail/JailFactory.py
 9b6da43d59a26382574fada2da117154|lib/jail/__init__.py
 6cc53d7300d6ff23fad27157a56b1e57|lib/kvm/KVM.py
 1cf6b0b294dc7ff76a31781636f0492c|lib/kvm/__init__.py
@@ -39,7 +39,7 @@ b7d1533843c8c04136920b68d86a0799|lib/kvm/readme.txt
 72a2449ab30e63cafb02e59e7f404fa0|lib/numtools/NumTools.py
 d41d8cd98f00b204e9800998ecf8427e|lib/numtools/__init__.py
 103480376a5be972bf3228ba0ee96476|lib/numtools/extension.cfg
-bce852f48ea2485ac551444c5bf6e97b|lib/objectinspector/ObjectInspector.py
+68f170e503e59e0c31198e9355a5da5e|lib/objectinspector/ObjectInspector.py
 3b38905ac19519a456f424c9f366c6e8|lib/objectinspector/__init__.py
 97146d12062fc3974d77b0ff2e6871da|lib/osticket/OSTicketFactory.py
 731716ad2a2bc7d221b5c343307260e0|lib/osticket/__init__.py
@@ -99,9 +99,9 @@ ac655544013bbbe0bebda8f0bcbd17ea|lib/platform/usb/cmdtools/removeUSB.sh
 b61bda201cd9a78f23a678fdfe5cd6e4|lib/qemu_img/qemu_img.py
 1eb8930e15872602b0369ac00a6e8a07|lib/rogerthat/__init__.py
 7f3928c50584446c2a6d2e0cf0e920e2|lib/rogerthat/rogerthat.py
-9518ae95c0281eeaa8c93d373b77afee|lib/routeros/RouterOS.py
+bc70c1855830f915c5e7d0460acc9037|lib/routeros/RouterOS.py
 923042414f73ec13d19b7e050ac83d41|lib/routeros/__init__.py
-0f9f2238338236e1a7e847ffb167007a|lib/sandboxer/Sandboxer.py
+773d3df1b18dc7a6682a3fe7635a5feb|lib/sandboxer/Sandboxer.py
 97eee7a3b930c1a665601799df4a43c5|lib/sandboxer/__init__.py
 47085b125ed7c670feb8f14ad335168d|lib/sheet/Sheet.py
 553b41db31a6fe40491e34dd14f53b6f|lib/sheet/Sheets.py
@@ -109,3 +109,9 @@ d41d8cd98f00b204e9800998ecf8427e|lib/sheet/__init__.py
 5490784885531ad26a32d5169e3877f4|lib/sheet/extension.cfg
 a1ea28640027bbe52274b7f963c13af6|lib/shorewall/__init__.py
 b24d0992a7627acab7b2b8bff9f052c0|lib/shorewall/shorewall.py
+ec9f058f4dc8fcdc265aae1450feaade|lib/whmcs/__init__.py
+13b5a97d00bc07585129a5a506992503|lib/whmcs/phpserialize.py
+35918a36db8df381bad4df7b6c414a5d|lib/whmcs/settings.py
+f8e2731804a26f60bc9f3429997379fd|lib/whmcs/whmcsorders.py
+fe53dd5ee8883601ce15335fb4851c86|lib/whmcs/whmcstickets.py
+838bc9be70636eec9fa36cee33740889|lib/whmcs/whmcsusers.py
