@@ -39,7 +39,7 @@ def main(j,jp):
         check=True,\
         timeoutcheck=20,\
         isJSapp=0,\
-        upstart=False,\
+        upstart=True,\
         stats=False,\
         processfilterstr="mongod --dbpath")#what to look for when doing ps ax to find the process
     pd.start()
