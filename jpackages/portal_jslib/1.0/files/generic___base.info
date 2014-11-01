@@ -40,7 +40,7 @@ cf53af59608ac752371295d59b95d08f|apps/portals/jslib/angular/i18n/angular-locale_
 d3f4c9a3e30d6bf510c4102c75a8e5e6|apps/portals/jslib/angular/i18n/angular-locale_ar-ae.js
 13b2e13d7c0cd1444f9638c1898cdffe|apps/portals/jslib/angular/i18n/angular-locale_ar-bh.js
 d8cf5006ec70a6239d59b9f08ebd4453|apps/portals/jslib/angular/i18n/angular-locale_ar-dz.js
-b47b19ba698a4ec838a477682500ee33|apps/portals/jslib/angular/i18n/angular-locale_ar-eg.js
+b47b19ba698a4ec838a499992500ee33|apps/portals/jslib/angular/i18n/angular-locale_ar-eg.js
 e143918a9751017d8a8398b612f28708|apps/portals/jslib/angular/i18n/angular-locale_ar-iq.js
 333f52ab5f556e4615c6b0e90175adc3|apps/portals/jslib/angular/i18n/angular-locale_ar-jo.js
 181dbddc1db603a6d4f0730faefbd310|apps/portals/jslib/angular/i18n/angular-locale_ar-kw.js
@@ -930,7 +930,7 @@ ccde52f05ce4dd1ff85b122994ddab3c|apps/portals/jslib/old/codemirror/mode/toml/tom
 957c2f5bde12f470652534fecbdd823d|apps/portals/jslib/old/codemirror/mode/vb/index.html
 a80b66efea607f8367e4105181861918|apps/portals/jslib/old/codemirror/mode/vb/vb.js
 05c6790e0a9caa67b67aed4197f1b0a5|apps/portals/jslib/old/codemirror/mode/vbscript/index.html
-b521a3668889929cddd1d142b38f7768|apps/portals/jslib/old/codemirror/mode/vbscript/vbscript.js
+b521a3668889929cddd1d142b38f9999|apps/portals/jslib/old/codemirror/mode/vbscript/vbscript.js
 e358c50b38a4869c00f6b310b1b472d4|apps/portals/jslib/old/codemirror/mode/velocity/index.html
 010b26d73c73a2a9a3c3859e1dbdb0ed|apps/portals/jslib/old/codemirror/mode/velocity/velocity.js
 3432db2910a9abff959bced2e28dbcd7|apps/portals/jslib/old/codemirror/mode/verilog/index.html

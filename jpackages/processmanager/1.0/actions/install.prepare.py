@@ -1,10 +1,6 @@
 def main(j,jp):
-    redis=j.packages.findNewest("jumpscale","redis")
-    instancename = 'production'
-    if not redis.isInstalled(instancename):
-        redis.install(hrddata={"redis.name":instancename,"redis.port":"7768","redis.disk":"1","redis.mem":400},instance=instancename)
-    redis.load(instancename)
-    redis.start()
+    if j.system.net.tcpPortConnectionTest("localhost",9999)==False:
+        j.events.opserror_critical("could not find redis on port 9999",category="processmanager.install")
 
     acinstance = jp.hrd_instance.get('agentcontroller.connection')
     import JumpScale.grid.agentcontroller

@@ -1,5 +1,6 @@
 
 def main(j,jp):
+    raise RuntimeError("no longer ok")
     gridid=j.application.config.getInt("gridmaster.grid.id")
 
     j.application.config.set("grid.id",gridid)

@@ -1,4 +1,4 @@
-d895348107e948139df6f3d0f31df87a
+194f331c8ae0b47a86ea10bb56ba0199
 0f44b2d4562f4c8eba46865fb53ea6c5|bin/Python-2.7.egg-info
 e9c2d3723498cdfd64c0231cf37f74db|bin/_bsddb.x86_64-linux-gnu.so
 73d48a1edff94ec29c237f391a38aa2e|bin/_codecs_cn.x86_64-linux-gnu.so
@@ -700,9 +700,10 @@ d725d30ebcda92834c321ca673e07c20|lib/gevent/thread.py
 1f3d98230babac0f05258b3947e071e8|lib/gevent/wsgi.py
 86cc8eb64c6d9bd3b5db383ea3502220|lib/greenlet.so
 1557441f152884e3e49e17e2afadfbc8|lib/hiredis.so
-6440ae4384434793fc1a8bdd973cacde|lib/hiredis/__init__.py
-1557441f152884e3e49e17e2afadfbc8|lib/hiredis/hiredis.so
-06ab141645cd708655a12ae12bfc349e|lib/hiredis/version.py
+7968f28143a6ad33d9752735a17c7f90|lib/hiredis/__init__.py
+f433d83d1e4059b8373ba3f71144fa7c|lib/hiredis/hiredis.py
+aad23ab44e00841cecc4be1f66856d77|lib/hiredis/hiredis.so
+6c66b77e89f4e621ec2aecb089fcdc9c|lib/hiredis/version.py
 282952d93231aa021e46e811fc898d93|lib/lapack_lite.so
 ee3c86c5712306074d738c1319ca3287|lib/libGeoIP.so.1
 15d4d011a7f8156a390aa56390e53dd1|lib/libcloud/__init__.py
@@ -1864,7 +1865,7 @@ a44129e5f86c6e7904689be2a555eee1|lib/plyvel/_plyvel.so
 69383c386e24434879882eeb6c3f8b33|lib/plyvel/_version.py
 eb7754b050a339354d4d5a98123951f8|lib/pycurl.so
 b0c0cd9f78cb7e40cdce0f0f12b000cd|lib/pylzma.so
-4db6ebbbc0f4b954552b53403e5248ad|lib/python.zip
+94bda99efb9ed2ce01987d86cab469e8|lib/python.zip
 ae38f483d04dca68d788e4865fd6265e|lib/requests/__init__.py
 3c41b18eda377958489b888fe6255bbc|lib/requests/adapters.py
 a6bfa0284c3b55b025384b168583b802|lib/requests/api.py

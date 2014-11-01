@@ -10,13 +10,13 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name="webdis",\
-        cmd="./webdis", \
-        args="$cfgdir/webdis/webdis.json",\
+        cmd="$base/apps/webdis/webdis $cfgdir/webdis/webdis.json", \
+        args="",\
         env={},\
         numprocesses=1,\
         priority=6,\
         shell=False,\
-        workingdir='$base/apps/webdis',\
+        workingdir='',\
         jpackage=jp,\
         domain="serverapps",\
         ports=[7779],\
@@ -26,9 +26,9 @@ def main(j,jp):
         log=True,\
         stopcmd=None,\
         check=True,\
-        timeoutcheck=3,\
+        timeoutcheck=6,\
         isJSapp=0,\
-        upstart=False,\
+        upstart=True,\
         stats=True,\
         processfilterstr="./webdis")#what to look for when doing ps ax to find the process
     

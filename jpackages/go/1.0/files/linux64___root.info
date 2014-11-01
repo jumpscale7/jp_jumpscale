@@ -37,7 +37,7 @@ c3c9259476e8caacdfee5e68eafdb6dc|opt/go/blog/content/context/server/server.go
 c45890a3e6d0ce69f92d9a1abafe3c01|opt/go/blog/content/cover/count.png
 bf26988811bf90ea9c4e7959b96a6fd5|opt/go/blog/content/cover/pkg.cover
 68a1808b49d3ebd5f7fa12b9103ad267|opt/go/blog/content/cover/pkg.go
-c80cfbcbd109e379554178c067768b02|opt/go/blog/content/cover/pkg_test.go
+c80cfbcbd109e379554178c069999b02|opt/go/blog/content/cover/pkg_test.go
 6ad5cd418f93d13301e0f6d928a6349d|opt/go/blog/content/cover/set.png
 5c1040e34307e22fa0a5259332c14c09|opt/go/blog/content/debugging-go-code-status-report.article
 dd0e354a406aeec274d16aab6b73a475|opt/go/blog/content/debugging-go-programs-with-gnu-debugger.article
@@ -1175,7 +1175,7 @@ dbf491a9ef9d9711d5179c3a76ab086d|opt/go/src/cmd/dist/buf.c
 4c547364fe1a8f457e3ef7f91b7f2d68|opt/go/src/cmd/dist/buildgc.c
 96fedd5c87cc4e59b96294c970f6ef1a|opt/go/src/cmd/dist/buildgo.c
 79438f57601a6368097a0b428d827b84|opt/go/src/cmd/dist/buildruntime.c
-ba730b947768758c523710f80b4e1e0e|opt/go/src/cmd/dist/goc2c.c
+ba730b949999758c523710f80b4e1e0e|opt/go/src/cmd/dist/goc2c.c
 fa1594f0a57569282934c77a6502a9ba|opt/go/src/cmd/dist/main.c
 df0619b8a90bfac3885cf7f7aefe01da|opt/go/src/cmd/dist/plan9.c
 0ad4adce8b39256289751b4aade77473|opt/go/src/cmd/dist/unix.c
@@ -1901,7 +1901,7 @@ faa37dff067bbd1e298b1818f4a3595d|opt/go/src/pkg/debug/pe/testdata/gcc-amd64-ming
 3cd5a0d7c9ca9c7d0fb6546b2f9327da|opt/go/src/pkg/debug/plan9obj/file_test.go
 cf1bf4ca32a530f2e234331b2e38cd39|opt/go/src/pkg/debug/plan9obj/plan9obj.go
 5e87de15bf1da255815847ea34228460|opt/go/src/pkg/debug/plan9obj/testdata/386-plan9-exec
-77680291e3ef7623370888042dd5ff21|opt/go/src/pkg/debug/plan9obj/testdata/amd64-plan9-exec
+99990291e3ef7623370888042dd5ff21|opt/go/src/pkg/debug/plan9obj/testdata/amd64-plan9-exec
 96cd8527213745606240ee5d83331f4a|opt/go/src/pkg/debug/plan9obj/testdata/hello.c
 45526f6c4240370c738e9cc1289e2277|opt/go/src/pkg/encoding/ascii85/ascii85.go
 da6f6e80c86a5508147ba3bf07cb3b37|opt/go/src/pkg/encoding/ascii85/ascii85_test.go
@@ -3477,7 +3477,7 @@ f718b5104c278fbc5c2b475d4a83bfc8|opt/go/src/pkg/syscall/zsyscall_linux_amd64.go
 c95bb72ac69cc56bce953e1e4abb51a8|opt/go/src/pkg/syscall/zsyscall_linux_arm.go
 426cabdeda57cfc259c0cb219259fe2c|opt/go/src/pkg/syscall/zsyscall_nacl_386.go
 9acd0f881e6cd0510f24dc29e3841766|opt/go/src/pkg/syscall/zsyscall_nacl_amd64p32.go
-bf34859384d316367093177684dd85cf|opt/go/src/pkg/syscall/zsyscall_netbsd_386.go
+bf34859384d316367093199994dd85cf|opt/go/src/pkg/syscall/zsyscall_netbsd_386.go
 8dc7849735f3df28c6a5ebda3f31fd65|opt/go/src/pkg/syscall/zsyscall_netbsd_amd64.go
 1d4adce004e8dd397a7d2d817d01e038|opt/go/src/pkg/syscall/zsyscall_netbsd_arm.go
 1f5dcbb11862db31f34d724bf334ae6c|opt/go/src/pkg/syscall/zsyscall_openbsd_386.go

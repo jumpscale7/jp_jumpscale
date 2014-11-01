@@ -4,8 +4,9 @@ def main(j,jp):
     jp.log("stop $(jp.name)")
 
     name="redis_$(redis.name)"
+
     try:
         j.tools.startupmanager.stopProcess('redis', name)
-    except ProcessNotFoundException:
+    except Exception,e:
         pass
 

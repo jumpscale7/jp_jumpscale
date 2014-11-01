@@ -22,7 +22,7 @@ def main(j,jp):
         log=True,\
         stopcmd=None,\
         check=True,\
-        timeoutcheck=2,\
+        timeoutcheck=8,\
         isJSapp=0,\
         upstart=True,\
         stats=True,\

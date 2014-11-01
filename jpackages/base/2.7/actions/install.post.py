@@ -4,11 +4,14 @@ def main(j,jp):
     if path not in sys.path:
         sys.path.append(path)
 
-    redis=j.packages.findNewest("jumpscale","redis")
-    if not redis.isInstalled():        
-        redis.install(hrddata={"redis.name":"system","redis.port":"7766","redis.disk":"0","redis.mem":200},instance="system")
-    redis.instance="system"
-    redis.start()
+    import JumpScale.baselib.startupmanager
+    j.tools.startupmanager.installRedisSystem()
+
+    # redis=j.packages.findNewest("jumpscale","redis")
+    # if not redis.isInstalled():        
+    #     redis.install(hrddata={"redis.name":"system","redis.port":"9999","redis.disk":"0","redis.mem":20},instance="system")
+    # redis.instance="system"
+    # redis.start()
     
     j.dirs.replaceFilesDirVars("$base/bin/celery")
     j.dirs.replaceFilesDirVars("$base/bin/celerybeat")

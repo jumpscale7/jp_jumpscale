@@ -1,2 +1,15 @@
 grid.node.machineguid=
 grid.master.superadminpasswd=@ASK
+
+#grid.useavahi=0
+
+grid.master.ip=localhost
+grid.master.port=5544
+
+grid.id=@ASK
+
+grid.node.id =
+grid.node.roles = node,agentcontroller
+grid.node.machineguid =
+
+
