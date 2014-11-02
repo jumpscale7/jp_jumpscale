@@ -1,4 +1,4 @@
-0753b9002255c9fbc0de8d30cdbe9216
+d4443c310107a02ce8868311703439d6
 644524e310a83d3d5688c3478c764e28|apps/portals/jslib/angular/angular-animate.js
 2bc8d3d87322db014de4983e2ce9e69b|apps/portals/jslib/angular/angular-animate.min.js
 d63cf47ebf12a51fb1dc7f6d12d22fec|apps/portals/jslib/angular/angular-animate.min.js.map
@@ -40,7 +40,7 @@ cf53af59608ac752371295d59b95d08f|apps/portals/jslib/angular/i18n/angular-locale_
 d3f4c9a3e30d6bf510c4102c75a8e5e6|apps/portals/jslib/angular/i18n/angular-locale_ar-ae.js
 13b2e13d7c0cd1444f9638c1898cdffe|apps/portals/jslib/angular/i18n/angular-locale_ar-bh.js
 d8cf5006ec70a6239d59b9f08ebd4453|apps/portals/jslib/angular/i18n/angular-locale_ar-dz.js
-b47b19ba698a4ec838a499992500ee33|apps/portals/jslib/angular/i18n/angular-locale_ar-eg.js
+b47b19ba698a4ec838a477682500ee33|apps/portals/jslib/angular/i18n/angular-locale_ar-eg.js
 e143918a9751017d8a8398b612f28708|apps/portals/jslib/angular/i18n/angular-locale_ar-iq.js
 333f52ab5f556e4615c6b0e90175adc3|apps/portals/jslib/angular/i18n/angular-locale_ar-jo.js
 181dbddc1db603a6d4f0730faefbd310|apps/portals/jslib/angular/i18n/angular-locale_ar-kw.js
@@ -478,6 +478,13 @@ bd42b401ab68f9eb54eee47a873b5769|apps/portals/jslib/jquery/jquery-1.10.1.js
 4aa3e2dfa3123d9373c817b77456aa25|apps/portals/jslib/jquery/jquery.scrollTo-1.4.2-min.js
 750fe4b0c726a614c56dcfd3db3f36bb|apps/portals/jslib/jquery/jquery.tagsinput.js
 0e390e86b02e36b6240ef27c01b63a4b|apps/portals/jslib/jquery/jquery.ui.touch-punch.min.js
+ffb12f89f706291cb139b73c164a7722|apps/portals/jslib/jquery/jqueryDataTable/css/bootstrap-theme.min.css
+fe9a07c000409229c0e78b13ed509a7c|apps/portals/jslib/jquery/jqueryDataTable/css/dataTables.bootstrap.css
+6c56b94fd0540844a7118cdff565b0ae|apps/portals/jslib/jquery/jqueryDataTable/images/sort_asc.png
+94b34ff5224ba38210d67623bb1a1504|apps/portals/jslib/jquery/jqueryDataTable/images/sort_both.png
+8f88d990024975797f96ce7648dacd2f|apps/portals/jslib/jquery/jqueryDataTable/images/sort_desc.png
+3b418f9d0deceea7e363bf109df28e72|apps/portals/jslib/jquery/jqueryDataTable/js/dataTables.bootstrap.js
+6465a1f903b373b0427bd2c7d852aca6|apps/portals/jslib/jquery/jqueryDataTable/js/jquery.dataTables.js
 b6625e438aaea6720f0ac88f7ab27ba3|apps/portals/jslib/kibana/LICENSE.md
 f3c57f8db27903e0ebecc4f79da6f514|apps/portals/jslib/kibana/README.md
 d5bdcf6e08cf66972feb1539b1ed01e8|apps/portals/jslib/kibana/app/app.js
@@ -930,7 +937,7 @@ ccde52f05ce4dd1ff85b122994ddab3c|apps/portals/jslib/old/codemirror/mode/toml/tom
 957c2f5bde12f470652534fecbdd823d|apps/portals/jslib/old/codemirror/mode/vb/index.html
 a80b66efea607f8367e4105181861918|apps/portals/jslib/old/codemirror/mode/vb/vb.js
 05c6790e0a9caa67b67aed4197f1b0a5|apps/portals/jslib/old/codemirror/mode/vbscript/index.html
-b521a3668889929cddd1d142b38f9999|apps/portals/jslib/old/codemirror/mode/vbscript/vbscript.js
+b521a3668889929cddd1d142b38f7768|apps/portals/jslib/old/codemirror/mode/vbscript/vbscript.js
 e358c50b38a4869c00f6b310b1b472d4|apps/portals/jslib/old/codemirror/mode/velocity/index.html
 010b26d73c73a2a9a3c3859e1dbdb0ed|apps/portals/jslib/old/codemirror/mode/velocity/velocity.js
 3432db2910a9abff959bced2e28dbcd7|apps/portals/jslib/old/codemirror/mode/verilog/index.html
