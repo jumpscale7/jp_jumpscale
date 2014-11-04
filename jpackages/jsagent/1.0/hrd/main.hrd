@@ -17,10 +17,10 @@ jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=81925dc36f3b19e07ecf3219e0b0d70f
 
 ##dependencies
-#jp.dependency.1.name = grid_node
-#jp.dependency.1.domain = jumpscale
-#jp.dependency.1.minversion=
-#jp.dependency.1.maxversion =
+jp.dependency.1.name = python-statsd
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion =
 
 
 jp.debug=1
