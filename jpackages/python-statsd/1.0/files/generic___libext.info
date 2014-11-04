@@ -1,0 +1,7 @@
+bbc90aeeddf544a97bff8b927133a3ac
+7b6e22d3ef761faefeb20417652d997a|statsd/__init__.py
+027ec76668b5de16af365de6d3bcf492|statsd/client.py
+d53947f31336345ededf470493d5bfe4|statsd/defaults/__init__.py
+5f917bdc9cc7aefac4e4eb79a1b8576f|statsd/defaults/django.py
+0456fbdfcbe852f167e968501d6268d3|statsd/defaults/env.py
+bc34c1a9b94b012de960836a61fcc16d|statsd/tests.py
