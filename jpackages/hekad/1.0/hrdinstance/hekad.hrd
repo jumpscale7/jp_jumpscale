@@ -1,0 +1,7 @@
+heka.role=
+heka.influxdb.host=
+heka.influxdb.dbname=
+heka.influxdb.user=
+heka.influxdb.password=
+heka.master=
+
