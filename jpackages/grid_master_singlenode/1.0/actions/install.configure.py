@@ -84,6 +84,17 @@ def main(j,jp):
     gridportal = j.packages.findNewest('jumpscale', 'grid_portal')
     gridportal.install(instance='main', hrddata={'portal.instance': 'main'})
 
+    grafanaportal = j.packages.findNewest('jumpscale', 'grafana_portal')
+    grafanaportal.install(instance='main', hrddata={'influxdb.connection': 'main'})
+
+    hekadata = {'heka.role': 'master',
+                'heka.influxdb.host': 'localhost',
+                'heka.influxdb.dbname': 'main',
+                'heka.influxdb.user': 'admin',
+                'heka.influxdb.password': 'admin'}
+    hekad = j.packages.findNewest('jumpscale', 'hekad')
+    hekad.install(instance='master', hrddata=hekadata)
+
     webdis = j.packages.findNewest('jumpscale', 'webdis')
     webdis.install()
 
@@ -97,12 +108,11 @@ def main(j,jp):
     ac.install(instance='main', hrddata=acdata,reinstall=True)
     ac.start()
 
-    #now part of jsagent
-    # acclient = j.packages.findNewest('jumpscale', 'agentcontroller_client')
-    # acclientdata = {'agentcontroller.client.addr': '127.0.0.1',
-    #                 'agentcontroller.client.login': 'node',
-    #                 'agentcontroller.client.port': '4444'}
-    # acclient.install(instance='main', hrddata=acclientdata)
+    acclient = j.packages.findNewest('jumpscale', 'agentcontroller_client')
+    acclientdata = {'agentcontroller.client.addr': '127.0.0.1',
+                    'agentcontroller.client.login': 'node',
+                    'agentcontroller.client.port': '4444'}
+    acclient.install(instance='main', hrddata=acclientdata)
 
     pm = j.packages.findNewest('jumpscale', 'jsagent')
     pmdata = {'ac.ipaddress':'localhost',
@@ -111,5 +121,6 @@ def main(j,jp):
             'ac.passwd':'EMPTY'
             }
     pm.install(instance='main', hrddata=pmdata,reinstall=True)
+    pm.start()
 
 
