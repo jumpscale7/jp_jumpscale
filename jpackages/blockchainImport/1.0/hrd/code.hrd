@@ -1,0 +1,5 @@
+jp.code.account=zaibon
+jp.code.repo=blockchainImport
+jp.code.provider=github
+jp.code.type=git
+jp.code.branch=master
