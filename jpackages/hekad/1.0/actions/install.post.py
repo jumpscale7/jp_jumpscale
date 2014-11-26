@@ -3,9 +3,9 @@ def main(j,jp):
     role = hrd.get('heka.role')
     cfgpath = '/opt/heka/cfg'
     if role == 'master':
-        toremove = ['tcpoutput.toml']
+        toremove = ['tcpoutput.toml', 'httpoutput.toml']
     else:
-        toremove = ['influx_ouput.toml', 'tcpinput.toml']
+        toremove = ['influx_ouput.toml', 'tcpinput.toml', 'httpinput.toml']
     for file in toremove:
         filepath = j.system.fs.joinPaths(cfgpath, file)
         j.system.fs.remove(filepath)
