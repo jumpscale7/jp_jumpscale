@@ -8,4 +8,4 @@ def main(j,jp):
     name="jsagent"
     startstoptimeout=20
     j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=100, shell=False, workingdir=workingdir,jpackage=jp,domain="",\
-        ports=[4445],check=True,timeoutcheck=startstoptimeout,stats=True,upstart=False)
+        ports=[4446],check=True,timeoutcheck=startstoptimeout,stats=True,upstart=False)
