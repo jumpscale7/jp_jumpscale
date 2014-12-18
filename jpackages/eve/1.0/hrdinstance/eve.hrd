@@ -1,0 +1,5 @@
+eve.port=@ASK type:int default:5000
+eve.mongo.host=@ASK type:str default:localhost
+eve.mongo.port=@ASK type:int default:27017
+eve.pagination.limit=@ASK type:int default:1000000
+

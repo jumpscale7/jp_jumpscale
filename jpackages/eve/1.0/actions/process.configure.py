@@ -1,42 +1,54 @@
 def main(j,jp):
-   
-    #configure the application to autostart
+    args = ['eve_start.py']
     
-    # jp.log("set autostart $(jp.name)")
+    port = 5000
 
-
-    #numprocesses: if more than 1 process, will be started in tmux as $name_$nr
-    #ports: tcpports
-    #autostart: does this app start auto
-    #stopcmd: if special command to stop
-    #check: check app to see if its running
-    #stats: gather statistics by process manager
-    #timeoutcheck: how long do we wait to see if app active
-    #isJSapp: to tell system if process will self register to redis (is jumpscale app)
-
-    # pd=j.tools.startupmanager.addProcess(\
-    #     name=jp.name,\
-    #     cmd="", \
-    #     args="",\
-    #     env={},\
-    #     numprocesses=1,\
-    #     priority=100,\
-    #     shell=False,\
-    #     workingdir='',\
-    #     jpackage=jp,\
-    #     domain=jp.domain,\
-    #     ports=jp.ports,\
-    #     autostart=True,\
-    #     reload_signal=0,\
-    #     user="root",\
-    #     log=True,\
-    #     stopcmd=None,\
-    #     check=True,\
-    #     timeoutcheck=10,\
-    #     isJSapp=1,\
-    #     upstart=False,\
-    #     stats=False,\
-    #     processfilterstr="")#what to look for when doing ps ax to find the process
+    if jp.hrd_instance.exists("eve.port"):
+        p = jp.hrd_instance.get("eve.port")
+        if p:
+            port = p
+        args.append('--port %s' % port)
     
-    # pd.start()
-    pass
+    if jp.hrd_instance.exists("eve.mongo.host"):
+        mh = jp.hrd_instance.get("eve.mongo.host")
+        if mh:
+            args.append('--mongo_host %s' % mh)
+            
+    if jp.hrd_instance.exists("eve.mongo.port"):
+        mp = jp.hrd_instance.get("eve.mongo.port")
+        if mp:
+           args.append('--mongo_port %s' % mp)
+
+    if jp.hrd_instance.exists("eve.pagination.limit"):
+        pl = jp.hrd_instance.get("eve.pagination.limit")
+        if pl:
+            args.append('--pagination_limit %s' % pl)
+    
+    args = ' '.join(args)
+
+    pd=j.tools.startupmanager.addProcess(\
+        name=jp.name,\
+        cmd="python" ,\
+        args=args,\
+        env={},\
+        numprocesses=1,\
+        priority=90,\
+        shell=True,\
+        workingdir='$base/apps/eve/',\
+        jpackage=jp,\
+        domain=jp.domain,\
+        ports=[port],\
+        autostart=True,\
+        reload_signal=0,\
+        user="root",\
+        log=True,\
+        stopcmd=None,\
+        check=True,\
+        timeoutcheck=20,\
+        isJSapp=0,\
+        upstart=False,\
+        stats=False,\
+        processfilterstr="eve_start.py")#what to look for when doing ps ax to find the process
+    pd.start()
+
+
