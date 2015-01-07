@@ -11,6 +11,7 @@ def main(j,jp):
     except:
         pass
 
+    j.system.platform.ubuntu.install("nginx")
     j.system.platform.ubuntu.remove("nginx")
     j.system.platform.ubuntu.remove("lua-nginx-memcached")
     j.system.platform.ubuntu.remove("lua-nginx-redis")
